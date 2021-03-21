@@ -56,12 +56,56 @@ namespace Uyg2_SabitlerveDegiskenler
             //bolum = (float)sayi / sayi2;
             //Console.WriteLine(bolum);
             #endregion
-            #region Ornek6
-            string veri ;
-            Console.Write("Metin Giriniz :"); 
-            veri = Console.ReadLine();
-            Console.WriteLine("Girilen Metnin Uzunkuğu :"+veri.Length);
+
+            #region Ornek6 -Length Ozellikleri
+            //string veri ;
+            //Console.Write("Metin Giriniz :"); 
+            //veri = Console.ReadLine();
+            //Console.WriteLine("Girilen Metnin Uzunkuğu :"+veri.Length);
             #endregion
+
+            #region Ornek 7 - Tolower
+            //Console.Write("Metin Giriniz :");
+            //string veri;
+            //veri = Console.ReadLine();
+            //Console.WriteLine("Girilen Metni küçük harfle dönüştüyor ="+ veri.ToLower());
+            #endregion
+
+            #region Ornek  8- ToUpper 
+            //string veri;
+            //Console.Write("Metin Giriniz =");
+            //veri=Console.ReadLine();
+            //Console.Write("Girilen metni Büyük Harfle Çevirdi =" + veri.ToUpper());
+            //Console.WriteLine("\n");
+            #endregion
+
+            #region Ornek 9- Trim()
+
+            //string veri;
+            //Console.Write("Metin Giriniz =");
+            //veri = Console.ReadLine();
+            //Console.Write("Girilen metinin sağ ve soldaki boşluklarını siler =" + veri.Trim());
+
+            #endregion
+
+            #region Ornek 10 -Substring 
+            //String verilerde istenilen karakter kadar verinin geri
+            //döndürülmesini sağlamak için SUBSTRING fonksiyonu kullanılır
+            string veri;
+            Console.Write("Metin Giriniz =");
+            veri = Console.ReadLine();
+            int uzunlukluk = veri.Length;
+            Console.WriteLine("Girdiğiniz Metin "+uzunlukluk+" karakterli" +
+              "ve buna göre 2 değer girmesiniz \n1 . değer karakterin başlangıç değeri  \n 2. değer uzunluğu olamalıdır");
+            int start, len;
+            Console.Write("1.Değer =");
+            start = int.Parse(Console.ReadLine());
+            Console.Write("2.Değer =");
+            len = int.Parse(Console.ReadLine());
+            Console.WriteLine("Sonuc" + veri.Substring(start, len));
+
+            #endregion
+
         }
 
 
