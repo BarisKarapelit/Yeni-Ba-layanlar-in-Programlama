@@ -89,23 +89,99 @@ namespace Uyg2_SabitlerveDegiskenler
             #endregion
 
             #region Ornek 10 -Substring 
+
             //String verilerde istenilen karakter kadar verinin geri
             //döndürülmesini sağlamak için SUBSTRING fonksiyonu kullanılır
-            string veri;
-            Console.Write("Metin Giriniz =");
-            veri = Console.ReadLine();
-            int uzunlukluk = veri.Length;
-            Console.WriteLine("Girdiğiniz Metin "+uzunlukluk+" karakterli" +
-              "ve buna göre 2 değer girmesiniz \n1 . değer karakterin başlangıç değeri  \n 2. değer uzunluğu olamalıdır");
-            int start, len;
-            Console.Write("1.Değer =");
-            start = int.Parse(Console.ReadLine());
-            Console.Write("2.Değer =");
-            len = int.Parse(Console.ReadLine());
-            Console.WriteLine("Sonuc" + veri.Substring(start, len));
+            //string veri;
+            //Console.Write("Metin Giriniz =");
+            //veri = Console.ReadLine();
+            //int uzunlukluk = veri.Length;
+            //Console.WriteLine("Girdiğiniz Metin "+uzunlukluk+" karakterli" +
+            //  "ve buna göre 2 değer girmesiniz \n1 . değer karakterin başlangıç değeri  \n 2. değer uzunluğu olamalıdır");
+            //int start, len;
+            //Console.Write("1.Değer =");
+            //start = int.Parse(Console.ReadLine());
+            //Console.Write("2.Değer =");
+            //len = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Sonuc " + veri.Substring(start, len));
 
             #endregion
 
+            #region Ornek 11 - IndexOf 
+
+            //string veri;
+            //Console.Write("Enter Text :");
+            //veri = Console.ReadLine();
+            //Console.Write("Aranacak karakter :");
+            //string data = Console.ReadLine();
+            //data = data.Trim();
+            //Console.WriteLine("Sonuc : " + veri.IndexOf(data));
+
+            #endregion
+
+            #region Ornek 12 - Concat 
+
+            //string name, surname;
+
+            //Console.Write("Please Enter Name :");
+            //name = Console.ReadLine();
+
+            //Console.Write("Please Enter Surname :");
+            //surname = Console.ReadLine();
+
+            //string User = String.Concat(name, " ", surname);
+            //Console.WriteLine("User Information :" + User);
+            #endregion
+
+            #region Ornek 13 - Insert
+            //string name, surname;
+
+            //Console.Write("Please Enter Name :");
+            //name = Console.ReadLine();
+
+            //Console.Write("Please Enter Surname :");
+            //surname = Console.ReadLine();
+
+            //int nameInt = name.Trim().Length;
+            //string User = name.Trim()+surname.Trim();
+            //Console.WriteLine(User.Insert(nameInt," "));
+
+
+            #endregion
+
+            #region Ornek 15 - Remove
+
+            //Console.Write("Enter E-mail address :");
+            //string email = Console.ReadLine();
+
+
+
+            //email = email.Trim();
+            //int at = email.IndexOf("@");
+            //string userName = email.Remove(at);
+            //Console.WriteLine("Username :" + userName);
+            #endregion
+
+            #region Ornek 16 - Object Degiskenini Kullanma
+
+            //object veri;
+            //veri = "dasdsadasd";
+            //veri = 546465;
+            //veri = 'f';
+
+            //Console.WriteLine(veri);
+
+            #endregion
+
+            #region Ornek 17 - Tip Donusumleri
+
+            //int a;
+            //string b = "12";
+
+            //a = Convert.ToInt32(b);
+
+
+            #endregion
         }
 
 
