@@ -182,6 +182,54 @@ namespace Uyg2_SabitlerveDegiskenler
 
 
             #endregion
+
+
+            #region Basit İşlemler
+
+            //int n1,n2;
+
+            //do
+            //{ 
+
+            //    Console.Write("Lutfen birinci sayiyi giriniz: ");
+
+
+            //} while (!int.TryParse(Console.ReadLine(), out n1));
+
+            //do
+            //{
+
+            //    Console.Write("Lutfen ikinci sayiyi giriniz:");
+
+
+            //} while (!int.TryParse(Console.ReadLine(), out n2));
+
+            //Console.WriteLine("Toplam :" + (n1 + n2));
+            //Console.WriteLine("Fark :" + (n1 - n2));
+            //Console.WriteLine("Çarpim :" + (n1 * n2));
+            //Console.WriteLine("Bölüm :" + (n1 / n2));
+            //Console.WriteLine("Kalan :" + (n1 % n2));
+            #endregion
+
+
+            #region ReEkrana Tarihi Basan Kod
+            string yil ,ay, gün;
+
+            Console.Write("Lütfen günü giriniz:");
+            gün =Console.ReadLine();
+
+            Console.Write("Lütfen ayını giriniz:");
+            ay = Console.ReadLine();
+            
+            Console.Write("Lütfen yıl giriniz:");
+            yil = Console.ReadLine();
+
+            Console.WriteLine("Gün ay yıl : {0}.{1}.{2}", gün, ay, yil);
+
+            Console.WriteLine("Ay gün yıl : {1}.{0}.{2}", gün, ay, yil);
+
+            Console.WriteLine("Yıl ay gün: : {2}.{1}.{0}", gün, ay, yil);
+            #endregion
         }
 
 
