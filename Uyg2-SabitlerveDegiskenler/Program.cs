@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Net;
 
 namespace Uyg2_SabitlerveDegiskenler
 {
@@ -213,22 +215,84 @@ namespace Uyg2_SabitlerveDegiskenler
 
 
             #region ReEkrana Tarihi Basan Kod
-            string yil ,ay, gün;
+            //string yil ,ay, gün;
 
-            Console.Write("Lütfen günü giriniz:");
-            gün =Console.ReadLine();
+            //Console.Write("Lütfen günü giriniz:");
+            //gün =Console.ReadLine();
 
-            Console.Write("Lütfen ayını giriniz:");
-            ay = Console.ReadLine();
-            
-            Console.Write("Lütfen yıl giriniz:");
-            yil = Console.ReadLine();
+            //Console.Write("Lütfen ayını giriniz:");
+            //ay = Console.ReadLine();
 
-            Console.WriteLine("Gün ay yıl : {0}.{1}.{2}", gün, ay, yil);
+            //Console.Write("Lütfen yıl giriniz:");
+            //yil = Console.ReadLine();
 
-            Console.WriteLine("Ay gün yıl : {1}.{0}.{2}", gün, ay, yil);
+            //Console.WriteLine("Gün ay yıl : {0}.{1}.{2}", gün, ay, yil);
 
-            Console.WriteLine("Yıl ay gün: : {2}.{1}.{0}", gün, ay, yil);
+            //Console.WriteLine("Ay gün yıl : {1}.{0}.{2}", gün, ay, yil);
+
+            //Console.WriteLine("Yıl ay gün: : {2}.{1}.{0}", gün, ay, yil);
+            #endregion
+
+            #region Uyg3-KararKontrolYapiları
+
+            #region Ornek 1 - Ehliyet Durum Sorgulama 
+
+            //byte yas=0;
+            //int modDegeri=0;
+            //int UserGun, UserAy, UserYil;
+            //int yil = DateTime.Now.Year;
+            //int ay = DateTime.Now.Month;
+            //int gun = DateTime.Now.Day;
+
+            //Console.Write("Lütfen Doğum Yılınız Girin:");
+
+            //UserYil = int.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen Doğum Ayınızı Girin:");
+
+            //UserAy = int.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen Doğum Gününüzü Girin:");
+
+            //UserGun = int.Parse(Console.ReadLine());
+
+            //yil = yil - UserYil-1;
+            //UserAy = 12-UserAy;
+            //UserGun = 30-UserGun;
+
+            //ay = ay + UserAy;
+            //gun = gun + UserGun;
+
+            ////Console.WriteLine(yil+"-"+ay+"-"+gun);
+            //if(ay>=12)
+            //{
+            //    ay = ay % 12;
+            //    modDegeri++;
+            //}
+
+            //yil = modDegeri + yil;
+            //yas = (byte)yil;
+
+            //if (yas>18)
+            //{
+            //    Console.WriteLine("Tam olarak "+yil+" yaşınızda ve "+ay+" ay "+gun+" günlüksünüz.");
+            //    Console.WriteLine("Ehliyet Alabilirsiniz");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Tam olarak " + yil + " yaşınızda ve " + ay + " ay " + gun + " günlüksünüz.");
+            //    Console.WriteLine("Ehliyet Alamazsınız");
+            //}
+            #endregion
+
+            #region Ornek 2 Soyad Sorgulama
+            string word = "What is C#";
+            string source = (new WebClient()).DownloadString("http://stackoverflow.com/");
+            if (source.Contains(word))
+                Console.WriteLine(source);
+                Console.WriteLine("Found it " + word);
+
+            #endregion
             #endregion
         }
 
