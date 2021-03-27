@@ -288,18 +288,7 @@ namespace Uyg2_SabitlerveDegiskenler
             #endregion
 
             #region Ornek 2 Soyad Sorgulama
-            Wikipedia wikipedia = new Wikipedia();
-            wikipedia.Limit = 5;
-
-            QueryResult results = wikipedia.Search("Microsoft C#");
-
-            Console.WriteLine("Found " + results.Search.Count + " English results:");
-
-            foreach (Search s in results.Search)
-            {
-                Console.WriteLine(s.Url);
-            }
-
+            
             #endregion
             #endregion
         }
