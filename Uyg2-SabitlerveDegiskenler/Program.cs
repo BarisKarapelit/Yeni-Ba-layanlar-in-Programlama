@@ -2,6 +2,8 @@
 using System.IO;
 using System.Net;
 
+
+
 namespace Uyg2_SabitlerveDegiskenler
 {
     class Program
@@ -286,11 +288,17 @@ namespace Uyg2_SabitlerveDegiskenler
             #endregion
 
             #region Ornek 2 Soyad Sorgulama
-            string word = "What is C#";
-            string source = (new WebClient()).DownloadString("http://stackoverflow.com/");
-            if (source.Contains(word))
-                Console.WriteLine(source);
-                Console.WriteLine("Found it " + word);
+            Wikipedia wikipedia = new Wikipedia();
+            wikipedia.Limit = 5;
+
+            QueryResult results = wikipedia.Search("Microsoft C#");
+
+            Console.WriteLine("Found " + results.Search.Count + " English results:");
+
+            foreach (Search s in results.Search)
+            {
+                Console.WriteLine(s.Url);
+            }
 
             #endregion
             #endregion
