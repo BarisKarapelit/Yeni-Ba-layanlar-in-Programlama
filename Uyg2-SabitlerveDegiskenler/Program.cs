@@ -293,54 +293,243 @@ namespace Uyg2_SabitlerveDegiskenler
 
             #region Ornek 4 - Askerlik Durumu Sorgulama
 
-            char cinsiyet;
+            //char cinsiyet;
 
-            a1:
+            //a1:
 
-            do
-            {
-                Console.Write("Cinsiyetiniz= ");
-            } while (!Char.TryParse(Console.ReadLine(), out cinsiyet));
-            
+            //do
+            //{
+            //    Console.Write("Cinsiyetiniz= ");
+            //} while (!Char.TryParse(Console.ReadLine(), out cinsiyet));
 
-            
-            int yas;
 
-            do
-            { // until the user input is valid, keep asking
-                Console.Write("Yaşınız Giriniz: ");
-            } while (!int.TryParse(Console.ReadLine(), out yas));
-            
-            
-            if (cinsiyet == 'k' )
-            {
-                Console.WriteLine("->" + cinsiyet);
-                Console.WriteLine("Cinsiyet Hatası");
-            }else if(cinsiyet=='e')
-            {
-                Console.WriteLine("->" + cinsiyet);
-                if (yas>=18)
-                {
-                    Console.WriteLine("Demek {0} yaşınızdasınız", yas);
-                    Console.WriteLine("Askerlik yapalirsiniz");
-                }
-                else
-                {
-                    Console.WriteLine("Yaş Hatası");
-                }
-            }
-            else
-            {
-                goto a1;
-            }
-            
+
+            //int yas;
+
+            //do
+            //{ // until the user input is valid, keep asking
+            //    Console.Write("Yaşınız Giriniz: ");
+            //} while (!int.TryParse(Console.ReadLine(), out yas));
+
+
+            //if (cinsiyet == 'k' )
+            //{
+            //    Console.WriteLine("->" + cinsiyet);
+            //    Console.WriteLine("Cinsiyet Hatası");
+            //}else if(cinsiyet=='e')
+            //{
+            //    Console.WriteLine("->" + cinsiyet);
+            //    if (yas>=18)
+            //    {
+            //        Console.WriteLine("Demek {0} yaşınızdasınız", yas);
+            //        Console.WriteLine("Askerlik yapalirsiniz");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Yaş Hatası");
+            //    }
+            //}
+            //else
+            //{
+            //    goto a1;
+            //}
+
 
             #endregion
 
+            #region Ornek 5 -replace
+            //String s = "aaaa";
+            //Console.WriteLine("The initial string: '{0}'", s);
+            //s = s.Replace("aa", "bb").Replace("bb", "cc").Replace("cc", "dd");
+            //Console.WriteLine("The final string: '{0}'", s);
+            #endregion
+
+            #region Ornek 5.1 -Replace
+
+            //String username=" ";
+            //Console.Write("Email giriş yapın :");
+            //string email = Console.ReadLine();
+
+
+            //if(email.IndexOf("hotmail")>0)
+            //{
+            //    username = email.Replace("@hotmail.com", " ");
+            //    //Console.WriteLine("fd1");
+            //}
+            //else if (email.IndexOf("gmail")>0)
+            //{
+            //    username = email.Replace("@gmail.com", " ");
+            //    //Console.WriteLine("fd2");
+
+            //}
+            //else if (email.IndexOf("outlook") > 0)
+            //{
+            //    username = email.Replace("@outlook.com", " ");
+            //   // Console.WriteLine("fd3");
+
+            //}
+            //else if (email.IndexOf("yandex") > 0)
+            //{
+            //    username = email.Replace("@yandex.com", " ");
+            //    //Console.WriteLine("fd");
+
+            //}
+            //else if (email.IndexOf("yahoo") > 0)
+            //{
+            //    username = email.Replace("@yahoo.com", " ");
+            //    //Console.WriteLine("fd");
+
+            //}
+
+            //Console.WriteLine("Username : {0}",username);
+
+            #endregion
+
+            #region Ornek 6 - 5'lik Not Sistemi Yapimi
+            //byte not;
+
+            //do
+            //{ // until the user input is valid, keep asking
+            //    Console.Write("Notu Giriniz : ");
+            //} while (!byte.TryParse(Console.ReadLine(), out not));
+
+            //    if (not >= 85)
+            //    {
+
+            //        Console.WriteLine("5");
+
+            //    }
+            //    else if (not >= 70)
+            //    {
+            //        Console.WriteLine("4");
+            //    }
+            //    else if (not >= 55)
+            //    {
+            //        Console.WriteLine("3");
+            //    }
+            //    else if (not >= 45)
+            //    {
+            //        Console.WriteLine("2");
+            //    }
+            //    else if (not < 45)
+            //    {
+            //        Console.WriteLine("1");
+            //    }
+
+
+            #endregion
+
+            #region Ornek 7 - Kullanıcı Kontrolu
+
+            //string uname, upassword;
+            //Console.Write("Kullanıcı Adi : ");
+            //uname = Console.ReadLine();
+            //Console.Write("Kullanıcı Şifresi :");
+            //upassword = Console.ReadLine();
+
+            //string dosya_yolu = @"C:\Users\baris\Desktop\userInformation.txt";
+            //string[] data = System.IO.File.ReadAllLines(dosya_yolu);
+            //if (data[0]==uname)
+            //{
+            //    Console.WriteLine("Username Succesful");
+            //    if (data[1]==upassword)
+            //    {
+            //        Console.WriteLine("Password Succesful");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Password Not Succesful");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Username Not Succesful");
+            //}
+            //Console.ReadKey();
+
+
+
+            #endregion
+
+            #region Ornek 8 - Basit Hesap Makinesi
+
+            float n1, n2, result=0;
+
+            char Process;
+
+            Console.WriteLine("---------Welcome To Calculater---------");
+            a1:
+            Console.WriteLine("Subtraction Process : -");
+            Console.WriteLine("Aggregation Processing : +");
+            Console.WriteLine("Multiplication Process : *");
+            Console.WriteLine("SplitTing Process :  /");
+            
+            
+
+
+            do
+            {
+                Console.WriteLine("Select:");
+            } while (!Char.TryParse(Console.ReadLine(), out Process));
+
+            if(Process!='-'&&Process!='+'&&Process!='*'&&Process!='/')
+            {
+                goto a1;
+            }
+
+            Console.WriteLine("Enter the 2 Numbers ");
+            do
+            {
+                Console.Write("Enter 1.Number :");
+            } while (!float.TryParse(Console.ReadLine(), out n1));
+
+
+            do
+            {
+                Console.Write("Enter 2.Number :");
+            } while (!float.TryParse(Console.ReadLine(), out n2));
+
+            
+            
+            
+            
+           
+
+            if (Process=='-')
+            {
+                result = n1 - n2;
+            }
+            else if (Process=='+')
+            {
+                result = n1 + n2;
+            }
+            else if (Process=='*')
+            {
+                result = n1 * n2;
+            }
+            else if (Process == '/')
+            {
+                result = n1 / n2;
+            } 
+            
+
+
+            Console.WriteLine("Result is {0}",result);
+            Console.WriteLine("Back :(Y/N)");
+            char back = Console.ReadLine()[0];
+            if (back=='Y'||back=='y')
+            {
+                Console.Clear();
+                goto a1;
+
+            }
+            #endregion
 
             #endregion
         }
 
 
     }
+    
 }
+
