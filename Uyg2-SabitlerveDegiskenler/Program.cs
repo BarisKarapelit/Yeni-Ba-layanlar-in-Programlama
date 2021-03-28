@@ -288,8 +288,56 @@ namespace Uyg2_SabitlerveDegiskenler
             #endregion
 
             #region Ornek 2 Soyad Sorgulama
-            
+
             #endregion
+
+            #region Ornek 4 - Askerlik Durumu Sorgulama
+
+            char cinsiyet;
+
+            a1:
+
+            do
+            {
+                Console.Write("Cinsiyetiniz= ");
+            } while (!Char.TryParse(Console.ReadLine(), out cinsiyet));
+            
+
+            
+            int yas;
+
+            do
+            { // until the user input is valid, keep asking
+                Console.Write("Yaşınız Giriniz: ");
+            } while (!int.TryParse(Console.ReadLine(), out yas));
+            
+            
+            if (cinsiyet == 'k' )
+            {
+                Console.WriteLine("->" + cinsiyet);
+                Console.WriteLine("Cinsiyet Hatası");
+            }else if(cinsiyet=='e')
+            {
+                Console.WriteLine("->" + cinsiyet);
+                if (yas>=18)
+                {
+                    Console.WriteLine("Demek {0} yaşınızdasınız", yas);
+                    Console.WriteLine("Askerlik yapalirsiniz");
+                }
+                else
+                {
+                    Console.WriteLine("Yaş Hatası");
+                }
+            }
+            else
+            {
+                goto a1;
+            }
+            
+
+            #endregion
+
+
             #endregion
         }
 
