@@ -453,76 +453,130 @@ namespace Uyg2_SabitlerveDegiskenler
 
             #region Ornek 8 - Basit Hesap Makinesi
 
-            float n1, n2, result=0;
+            //float n1, n2, result=0;
 
-            char Process;
+            //char Process;
 
-            Console.WriteLine("---------Welcome To Calculater---------");
-            a1:
-            Console.WriteLine("Subtraction Process : -");
-            Console.WriteLine("Aggregation Processing : +");
-            Console.WriteLine("Multiplication Process : *");
-            Console.WriteLine("SplitTing Process :  /");
+            //Console.WriteLine("---------Welcome To Calculater---------");
+            //a1:
+            //Console.WriteLine("Subtraction Process : -");
+            //Console.WriteLine("Aggregation Processing : +");
+            //Console.WriteLine("Multiplication Process : *");
+            //Console.WriteLine("SplitTing Process :  /");
+
+
+
+
+            //do
+            //{
+            //    Console.WriteLine("Select:");
+            //} while (!Char.TryParse(Console.ReadLine(), out Process));
+
+            //if(Process!='-'&&Process!='+'&&Process!='*'&&Process!='/')
+            //{
+            //    goto a1;
+            //}
+
+            //Console.WriteLine("Enter the 2 Numbers ");
+            //do
+            //{
+            //    Console.Write("Enter 1.Number :");
+            //} while (!float.TryParse(Console.ReadLine(), out n1));
+
+
+            //do
+            //{
+            //    Console.Write("Enter 2.Number :");
+            //} while (!float.TryParse(Console.ReadLine(), out n2));
+
+
+
+
+
+
+
+            //if (Process=='-')
+            //{
+            //    result = n1 - n2;
+            //}
+            //else if (Process=='+')
+            //{
+            //    result = n1 + n2;
+            //}
+            //else if (Process=='*')
+            //{
+            //    result = n1 * n2;
+            //}
+            //else if (Process == '/')
+            //{
+            //    result = n1 / n2;
+            //} 
+
+
+
+            //Console.WriteLine("Result is {0}",result);
+            //Console.WriteLine("Back :(Y/N)");
+            //char back = Console.ReadLine()[0];
+            //if (back=='Y'||back=='y')
+            //{
+            //    Console.Clear();
+            //    goto a1;
+
+            //}
+            #endregion
+
+            #region Ornek 9 - Switch - Case Deyimi
+
+            int sayi;
+            again:
             
-            
-
-
+        
             do
             {
-                Console.WriteLine("Select:");
-            } while (!Char.TryParse(Console.ReadLine(), out Process));
-
-            if(Process!='-'&&Process!='+'&&Process!='*'&&Process!='/')
-            {
-                goto a1;
-            }
-
-            Console.WriteLine("Enter the 2 Numbers ");
-            do
-            {
-                Console.Write("Enter 1.Number :");
-            } while (!float.TryParse(Console.ReadLine(), out n1));
-
-
-            do
-            {
-                Console.Write("Enter 2.Number :");
-            } while (!float.TryParse(Console.ReadLine(), out n2));
-
-            
-            
-            
-            
+              Console.Write("Please Your enter the random number :");
+            } while (!int.TryParse(Console.ReadLine(),out sayi));
            
 
-            if (Process=='-')
+                switch (sayi)
             {
-                result = n1 - n2;
-            }
-            else if (Process=='+')
-            {
-                result = n1 + n2;
-            }
-            else if (Process=='*')
-            {
-                result = n1 * n2;
-            }
-            else if (Process == '/')
-            {
-                result = n1 / n2;
-            } 
-            
+                case 1:
+                    Console.WriteLine("Your number enter {0}",sayi);
 
+                    break;
+                case 2:
+                    Console.WriteLine("Your number enter {0}", sayi);
 
-            Console.WriteLine("Result is {0}",result);
-            Console.WriteLine("Back :(Y/N)");
-            char back = Console.ReadLine()[0];
-            if (back=='Y'||back=='y')
-            {
-                Console.Clear();
-                goto a1;
+                    break;
+                case 3:
+                    Console.WriteLine("Your number enter {0}", sayi);
+                    break;
+                case 4:
+                    Console.WriteLine("Your number enter {0}", sayi);
+                    break;
+                case 5:
+                    Console.WriteLine("Your number enter {0}", sayi);
+                    break;
+                case 6:
+                    Console.WriteLine("Your number enter {0}", sayi);
+                    break;
+                case 7:
+                    Console.WriteLine("Your number enter {0}", sayi);
+                    break;
+                case 8:
+                    Console.WriteLine("Your number enter {0}", sayi);
+                    break;
+                case 9:
+                    Console.WriteLine("Your number enter {0}", sayi);
+                    break;
+                case 10:
+                    Console.WriteLine("Your number enter {0}", sayi);
+                    break;
 
+                default:
+                    Console.WriteLine("Error Number :{0}", sayi);
+                    goto again;
             }
+
             #endregion
 
             #endregion
