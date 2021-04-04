@@ -527,59 +527,156 @@ namespace Uyg2_SabitlerveDegiskenler
 
             #region Ornek 9 - Switch - Case Deyimi
 
-            int sayi;
-            again:
-            
-        
-            do
+            //int sayi;
+            //again:
+
+
+            //do
+            //{
+            //  Console.Write("Please Your enter the random number :");
+            //} while (!int.TryParse(Console.ReadLine(),out sayi));
+
+
+            //    switch (sayi)
+            //{
+            //    case 1:
+            //        Console.WriteLine("Your number enter {0}",sayi);
+
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("Your number enter {0}", sayi);
+
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("Your number enter {0}", sayi);
+            //        break;
+            //    case 4:
+            //        Console.WriteLine("Your number enter {0}", sayi);
+            //        break;
+            //    case 5:
+            //        Console.WriteLine("Your number enter {0}", sayi);
+            //        break;
+            //    case 6:
+            //        Console.WriteLine("Your number enter {0}", sayi);
+            //        break;
+            //    case 7:
+            //        Console.WriteLine("Your number enter {0}", sayi);
+            //        break;
+            //    case 8:
+            //        Console.WriteLine("Your number enter {0}", sayi);
+            //        break;
+            //    case 9:
+            //        Console.WriteLine("Your number enter {0}", sayi);
+            //        break;
+            //    case 10:
+            //        Console.WriteLine("Your number enter {0}", sayi);
+            //        break;
+
+            //    default:
+            //        Console.WriteLine("Error Number :{0}", sayi);
+            //        goto again;
+            //}
+
+            #endregion
+
+            #region Ornek 10 - 1 -12 ay degerlerinin sözel karsılıgını veren app.
+
+            //byte ay;
+            //again:
+            //do
+            //{
+            //    Console.Write("Sayısal Olarak ay değerini giriniz :");
+
+            //} while (!byte.TryParse(Console.ReadLine(),out ay));
+
+            //switch (ay)
+            //{
+            //    case 1:
+            //        Console.WriteLine("Ocak ");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("Şubat ");
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("Ocak ");
+            //        break;
+            //    case 4:
+            //        Console.WriteLine("Mart ");
+            //        break;
+            //    case 5:
+            //        Console.WriteLine("Nisan ");
+            //        break;
+            //    case 6:
+            //        Console.WriteLine("Mayıs ");
+            //        break;
+            //    case 7:
+            //        Console.WriteLine("Temmuz ");
+            //        break;
+            //    case 8:
+            //        Console.WriteLine("Ağustos ");
+            //        break;
+            //    case 9:
+            //        Console.WriteLine("Eylül ");
+            //        break;
+            //    case 10:
+            //        Console.WriteLine("Ekim ");
+            //        break;
+            //    case 11:
+            //        Console.WriteLine("Kasım ");
+            //        break;
+            //    case 12:
+            //        Console.WriteLine("Aralık ");
+            //        break;
+
+            //    default:
+            //        Console.WriteLine("Belirtilen ay değeri bulunamadı:");
+            //        goto again;
+
+
+            //}
+
+            #endregion
+
+            #region Ornek 11 -Alan ve Cevre Hesabi
+
+            string sekil;
+            Console.Write("Sekil Giriniz :");
+            sekil = Console.ReadLine();
+            int alan=0, cevre=0;
+            int kenar;
+            switch (sekil)
             {
-              Console.Write("Please Your enter the random number :");
-            } while (!int.TryParse(Console.ReadLine(),out sayi));
-           
+                case "kare":
+                    
+                    Console.Write("Kenar uzunlugunu giriniz :");
+                    kenar=int.Parse(Console.ReadLine());
+                    alan = kenar * kenar;
+                    cevre = 4 * kenar;
+                    break;
 
-                switch (sayi)
-            {
-                case 1:
-                    Console.WriteLine("Your number enter {0}",sayi);
-
-                    break;
-                case 2:
-                    Console.WriteLine("Your number enter {0}", sayi);
-
-                    break;
-                case 3:
-                    Console.WriteLine("Your number enter {0}", sayi);
-                    break;
-                case 4:
-                    Console.WriteLine("Your number enter {0}", sayi);
-                    break;
-                case 5:
-                    Console.WriteLine("Your number enter {0}", sayi);
-                    break;
-                case 6:
-                    Console.WriteLine("Your number enter {0}", sayi);
-                    break;
-                case 7:
-                    Console.WriteLine("Your number enter {0}", sayi);
-                    break;
-                case 8:
-                    Console.WriteLine("Your number enter {0}", sayi);
-                    break;
-                case 9:
-                    Console.WriteLine("Your number enter {0}", sayi);
-                    break;
-                case 10:
-                    Console.WriteLine("Your number enter {0}", sayi);
+                case "ücgen":
+                    
+                    int yukseklik;
+                    Console.Write("Kenar uzunluğu :");
+                    kenar =int.Parse(Console.ReadLine());
+                    Console.Write("Yuksekiği giriniz :");
+                    yukseklik = int.Parse(Console.ReadLine());
+                    alan = (kenar * yukseklik) / 2;
+                    cevre = 3 * kenar;
                     break;
 
                 default:
-                    Console.WriteLine("Error Number :{0}", sayi);
-                    goto again;
+                    Console.WriteLine("Hatalı değer");
+                    break;
+
             }
-
+            Console.WriteLine("Alan : {0}",alan);
+            Console.WriteLine("Cevre : {0}", cevre);
+            Console.ReadKey();
             #endregion
 
             #endregion
+
         }
 
 
