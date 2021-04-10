@@ -639,41 +639,129 @@ namespace Uyg2_SabitlerveDegiskenler
 
             #region Ornek 11 -Alan ve Cevre Hesabi
 
-            string sekil;
-            Console.Write("Sekil Giriniz :");
-            sekil = Console.ReadLine();
-            int alan=0, cevre=0;
-            int kenar;
-            switch (sekil)
-            {
-                case "kare":
-                    
-                    Console.Write("Kenar uzunlugunu giriniz :");
-                    kenar=int.Parse(Console.ReadLine());
-                    alan = kenar * kenar;
-                    cevre = 4 * kenar;
-                    break;
+            //string sekil;
+            //Console.Write("Sekil Giriniz :");
+            //sekil = Console.ReadLine();
+            //int alan=0, cevre=0;
+            //int kenar;
+            //switch (sekil)
+            //{
+            //    case "kare":
 
-                case "ücgen":
-                    
-                    int yukseklik;
-                    Console.Write("Kenar uzunluğu :");
-                    kenar =int.Parse(Console.ReadLine());
-                    Console.Write("Yuksekiği giriniz :");
-                    yukseklik = int.Parse(Console.ReadLine());
-                    alan = (kenar * yukseklik) / 2;
-                    cevre = 3 * kenar;
-                    break;
+            //        Console.Write("Kenar uzunlugunu giriniz :");
+            //        kenar=int.Parse(Console.ReadLine());
+            //        alan = kenar * kenar;
+            //        cevre = 4 * kenar;
+            //        break;
 
-                default:
-                    Console.WriteLine("Hatalı değer");
-                    break;
+            //    case "ücgen":
 
-            }
-            Console.WriteLine("Alan : {0}",alan);
-            Console.WriteLine("Cevre : {0}", cevre);
-            Console.ReadKey();
+            //        int yukseklik;
+            //        Console.Write("Kenar uzunluğu :");
+            //        kenar =int.Parse(Console.ReadLine());
+            //        Console.Write("Yuksekiği giriniz :");
+            //        yukseklik = int.Parse(Console.ReadLine());
+            //        alan = (kenar * yukseklik) / 2;
+            //        cevre = 3 * kenar;
+            //        break;
+
+            //    default:
+            //        Console.WriteLine("Hatalı değer");
+            //        break;
+
+            //}
+            //Console.WriteLine("Alan : {0}",alan);
+            //Console.WriteLine("Cevre : {0}", cevre);
+            //Console.ReadKey();
             #endregion
+
+            #region Ornek 12 - Hesap Mekinesi
+            // int i ,k=0;
+            // double sonuc=0;
+            // int n1, n2,numbers;
+
+            // char islem;
+
+            // //numbers = int.Parse(Console.ReadLine());
+            // do
+            // {
+            //     Console.Write("How many numbers are you going to enter? :");
+            // } while (!int.TryParse(Console.ReadLine(),out numbers));
+
+            // int[] n = new int[numbers];
+            // for ( i=0; i < numbers; i++)
+            // {
+            //     k++;
+            //     do
+            //     {
+            //         Console.Write("Enter the {0} Number :",k);
+            //     } while (!int.TryParse(Console.ReadLine(), out n[i]));
+
+            // }
+
+
+            // do
+            // {
+            //     Console.Write("Select a process:(+,/,*,-) :");
+            // } while (!char.TryParse(Console.ReadLine(),out islem));
+            //// Console.WriteLine(islem);
+            // switch (islem)
+            // {
+            //     case '+':
+            //         for (int j = 0; j < numbers; j++)
+            //         {
+            //             Console.WriteLine("toplama");
+            //             sonuc = sonuc + n[j];
+            //         }
+            //         break;
+            //     case '-':
+            //         for (int j = 0; j < numbers; j++)
+            //         {
+            //             Console.WriteLine("çıkarma");
+            //             sonuc = n[j] - n[j+1];
+            //         }
+            //         break;
+            //     case '/':
+            //         for (int j = 0; j < numbers; j++)
+            //         {
+            //             Console.WriteLine("bölme");
+            //             sonuc = (double)(sonuc / n[j]);
+            //         }
+            //         break;
+            //     case '*':
+            //         for (int j = 0; j < numbers; j++)
+            //         {
+            //             Console.WriteLine("çarpma");
+            //             sonuc = sonuc + n[j];
+            //         }
+            //         break;
+            //     default:
+            //         Console.WriteLine("Error Input");
+            //         break;
+            // }
+
+
+            // Console.WriteLine("Result :"+sonuc);
+            // Console.ReadKey();
+            #endregion
+
+
+
+            #endregion
+
+            #region Uyg4_DonguDeyimleri
+
+            #region Ornek 1  1 - 10 arası sayıları ekrana yazan prg.
+
+            int i,f=0;
+
+            for ( i = 0;  i<10; i++)
+            {
+                f++;
+                Console.WriteLine("Number :{0}",f);
+            }
+
+                #endregion
 
             #endregion
 
