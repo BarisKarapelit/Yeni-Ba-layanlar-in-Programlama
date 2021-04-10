@@ -753,16 +753,35 @@ namespace Uyg2_SabitlerveDegiskenler
 
             #region Ornek 1  1 - 10 arası sayıları ekrana yazan prg.
 
-            int i,f=0;
+            //int i,f=0;
 
-            for ( i = 0;  i<10; i++)
+            //for ( i = 0;  i<10; i++)
+            //{
+            //    f++;
+            //    Console.WriteLine("Number :{0}",f);
+            //}
+
+            #endregion
+
+            #region Ornek 2 d-r arası harfleri ekrana yazan prg.
+
+            //char harf;
+
+            //for (harf='d';harf<='r';harf++)
+            //{
+            //    Console.WriteLine("Letter: {0}",harf);
+            //}
+
+            #endregion
+
+            #region Ornek 3 10-0 arası sayıları ekrana yazan prg.
+
+            for (int i = 10; i >= 1; i--)
             {
-                f++;
-                Console.WriteLine("Number :{0}",f);
+                Console.WriteLine("Valeu : {0}", i);
             }
 
-                #endregion
-
+            #endregion
             #endregion
 
         }
