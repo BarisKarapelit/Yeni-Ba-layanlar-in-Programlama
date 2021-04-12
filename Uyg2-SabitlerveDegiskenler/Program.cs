@@ -453,76 +453,76 @@ namespace Uyg2_SabitlerveDegiskenler
 
             #region Ornek 8 - Basit Hesap Makinesi
 
-            //float n1, n2, result=0;
+            //    float n1, n2, result = 0;
 
-            //char Process;
+            //    char Process;
 
-            //Console.WriteLine("---------Welcome To Calculater---------");
+            //    Console.WriteLine("---------Welcome To Calculater---------");
             //a1:
-            //Console.WriteLine("Subtraction Process : -");
-            //Console.WriteLine("Aggregation Processing : +");
-            //Console.WriteLine("Multiplication Process : *");
-            //Console.WriteLine("SplitTing Process :  /");
+            //    Console.WriteLine("Subtraction Process : -");
+            //    Console.WriteLine("Aggregation Processing : +");
+            //    Console.WriteLine("Multiplication Process : *");
+            //    Console.WriteLine("SplitTing Process :  /");
 
 
 
 
-            //do
-            //{
-            //    Console.WriteLine("Select:");
-            //} while (!Char.TryParse(Console.ReadLine(), out Process));
+            //    do
+            //    {
+            //        Console.WriteLine("Select:");
+            //    } while (!Char.TryParse(Console.ReadLine(), out Process));
 
-            //if(Process!='-'&&Process!='+'&&Process!='*'&&Process!='/')
-            //{
-            //    goto a1;
-            //}
+            //    if (Process != '-' && Process != '+' && Process != '*' && Process != '/')
+            //    {
+            //        goto a1;
+            //    }
 
-            //Console.WriteLine("Enter the 2 Numbers ");
-            //do
-            //{
-            //    Console.Write("Enter 1.Number :");
-            //} while (!float.TryParse(Console.ReadLine(), out n1));
-
-
-            //do
-            //{
-            //    Console.Write("Enter 2.Number :");
-            //} while (!float.TryParse(Console.ReadLine(), out n2));
+            //    Console.WriteLine("Enter the 2 Numbers ");
+            //    do
+            //    {
+            //        Console.Write("Enter 1.Number :");
+            //    } while (!float.TryParse(Console.ReadLine(), out n1));
 
 
+            //    do
+            //    {
+            //        Console.Write("Enter 2.Number :");
+            //    } while (!float.TryParse(Console.ReadLine(), out n2));
 
 
 
 
 
-            //if (Process=='-')
-            //{
-            //    result = n1 - n2;
-            //}
-            //else if (Process=='+')
-            //{
-            //    result = n1 + n2;
-            //}
-            //else if (Process=='*')
-            //{
-            //    result = n1 * n2;
-            //}
-            //else if (Process == '/')
-            //{
-            //    result = n1 / n2;
-            //} 
+
+
+            //    if (Process == '-')
+            //    {
+            //        result = n1 - n2;
+            //    }
+            //    else if (Process == '+')
+            //    {
+            //        result = n1 + n2;
+            //    }
+            //    else if (Process == '*')
+            //    {
+            //        result = n1 * n2;
+            //    }
+            //    else if (Process == '/')
+            //    {
+            //        result = n1 / n2;
+            //    }
 
 
 
-            //Console.WriteLine("Result is {0}",result);
-            //Console.WriteLine("Back :(Y/N)");
-            //char back = Console.ReadLine()[0];
-            //if (back=='Y'||back=='y')
-            //{
-            //    Console.Clear();
-            //    goto a1;
+            //    Console.WriteLine("Result is {0}", result);
+            //    Console.WriteLine("Back :(Y/N)");
+            //    char back = Console.ReadLine()[0];
+            //    if (back == 'Y' || back == 'y')
+            //    {
+            //        Console.Clear();
+            //        goto a1;
 
-            //}
+            //    }
             #endregion
 
             #region Ornek 9 - Switch - Case Deyimi
@@ -676,73 +676,84 @@ namespace Uyg2_SabitlerveDegiskenler
             #endregion
 
             #region Ornek 12 - Hesap Mekinesi
-            // int i ,k=0;
-            // double sonuc=0;
-            // int n1, n2,numbers;
+            int i, k = 0;
+            double sonuc = 0;
+            int n1, n2, numbers;
 
-            // char islem;
+            char islem;
 
-            // //numbers = int.Parse(Console.ReadLine());
-            // do
-            // {
-            //     Console.Write("How many numbers are you going to enter? :");
-            // } while (!int.TryParse(Console.ReadLine(),out numbers));
+            //numbers = int.Parse(Console.ReadLine());
+            do
+            {
+                Console.Write("How many numbers are you going to enter? :");
+            } while (!int.TryParse(Console.ReadLine(), out numbers));
 
-            // int[] n = new int[numbers];
-            // for ( i=0; i < numbers; i++)
-            // {
-            //     k++;
-            //     do
-            //     {
-            //         Console.Write("Enter the {0} Number :",k);
-            //     } while (!int.TryParse(Console.ReadLine(), out n[i]));
+            int[] n = new int[numbers];
+            for (i = 0; i < numbers; i++)
+            {
+                k++;
+                do
+                {
+                    Console.Write("Enter the {0} Number :", k);
+                } while (!int.TryParse(Console.ReadLine(), out n[i]));
 
-            // }
-
-
-            // do
-            // {
-            //     Console.Write("Select a process:(+,/,*,-) :");
-            // } while (!char.TryParse(Console.ReadLine(),out islem));
-            //// Console.WriteLine(islem);
-            // switch (islem)
-            // {
-            //     case '+':
-            //         for (int j = 0; j < numbers; j++)
-            //         {
-            //             Console.WriteLine("toplama");
-            //             sonuc = sonuc + n[j];
-            //         }
-            //         break;
-            //     case '-':
-            //         for (int j = 0; j < numbers; j++)
-            //         {
-            //             Console.WriteLine("çıkarma");
-            //             sonuc = n[j] - n[j+1];
-            //         }
-            //         break;
-            //     case '/':
-            //         for (int j = 0; j < numbers; j++)
-            //         {
-            //             Console.WriteLine("bölme");
-            //             sonuc = (double)(sonuc / n[j]);
-            //         }
-            //         break;
-            //     case '*':
-            //         for (int j = 0; j < numbers; j++)
-            //         {
-            //             Console.WriteLine("çarpma");
-            //             sonuc = sonuc + n[j];
-            //         }
-            //         break;
-            //     default:
-            //         Console.WriteLine("Error Input");
-            //         break;
-            // }
+            }
 
 
-            // Console.WriteLine("Result :"+sonuc);
-            // Console.ReadKey();
+            do
+            {
+                Console.Write("Select a process:(+,/,*,-) :");
+            } while (!char.TryParse(Console.ReadLine(), out islem));
+            // Console.WriteLine(islem);
+            switch (islem)
+            {
+                case '+':
+                    for (int j = 0; j < numbers; j++)
+                    {
+                        //Console.WriteLine("toplama");
+                        sonuc = sonuc + n[j];
+                    }
+                    break;
+                case '-':
+                    sonuc = sonuc - n[0];
+
+                    for (int j = 1; j <numbers; j++)
+                        {
+
+                        sonuc = sonuc + n[j];
+                        
+                        }
+
+                    sonuc = sonuc * -1;
+                    
+
+
+                    break;
+                case '/':
+                    sonuc = (float)(n[0] / n[1]);
+                    for (int j = 2; j < numbers; j++)
+                    {
+                        Console.WriteLine("bölme");
+                        sonuc = (float)(sonuc / n[j]);
+
+                    }
+                    break;
+                case '*':
+                    sonuc = 1;
+                    for (int j = 0; j < numbers; j++)
+                    {
+                        //Console.WriteLine("çarpma");
+                        sonuc = sonuc * n[j];
+                    }
+                    break;
+                default:
+                    Console.WriteLine("Error Input");
+                    break;
+            }
+
+
+            Console.WriteLine("Result :" + sonuc);
+            Console.ReadKey();
             #endregion
 
 
@@ -750,6 +761,8 @@ namespace Uyg2_SabitlerveDegiskenler
             #endregion
 
             #region Uyg4_DonguDeyimleri
+
+
 
             #region Ornek 1  1 - 10 arası sayıları ekrana yazan prg.
 
@@ -776,12 +789,14 @@ namespace Uyg2_SabitlerveDegiskenler
 
             #region Ornek 3 10-0 arası sayıları ekrana yazan prg.
 
-            for (int i = 10; i >= 1; i--)
-            {
-                Console.WriteLine("Valeu : {0}", i);
-            }
+            //for (int i = 10; i >= 1; i--)
+            //{
+            //    Console.WriteLine("Valeu : {0}", i);
+            //}
 
+            //#endregion
             #endregion
+
             #endregion
 
         }
