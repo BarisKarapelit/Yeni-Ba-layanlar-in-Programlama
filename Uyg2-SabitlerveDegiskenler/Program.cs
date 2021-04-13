@@ -677,8 +677,8 @@ namespace Uyg2_SabitlerveDegiskenler
 
             #region Ornek 12 - Hesap Mekinesi
             int i, k = 0;
-            double sonuc = 0;
-            int n1, n2, numbers;
+            float sonuc = 0;
+            int  numbers;
 
             char islem;
 
@@ -730,13 +730,15 @@ namespace Uyg2_SabitlerveDegiskenler
 
                     break;
                 case '/':
-                    sonuc = (float)(n[0] / n[1]);
+                    sonuc = (float)((float)(n[0]) / (float)(n[1]));
+                    
                     for (int j = 2; j < numbers; j++)
                     {
                         Console.WriteLine("bölme");
-                        sonuc = (float)(sonuc / n[j]);
+                        sonuc = (float)((sonuc) / (float)(n[j]));
 
                     }
+                    Console.WriteLine(sonuc);
                     break;
                 case '*':
                     sonuc = 1;
@@ -745,6 +747,7 @@ namespace Uyg2_SabitlerveDegiskenler
                         //Console.WriteLine("çarpma");
                         sonuc = sonuc * n[j];
                     }
+                    
                     break;
                 default:
                     Console.WriteLine("Error Input");
@@ -752,7 +755,7 @@ namespace Uyg2_SabitlerveDegiskenler
             }
 
 
-            Console.WriteLine("Result :" + sonuc);
+            Console.WriteLine("Result :" + (double)sonuc);
             Console.ReadKey();
             #endregion
 
