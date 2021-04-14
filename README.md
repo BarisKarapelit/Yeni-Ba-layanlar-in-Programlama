@@ -55,8 +55,8 @@
              <br>//string veri = "MerhAba DÜnya";
              <br>//Console.WriteLine(veri.IndexOf('D'));
 
-   <br><h3>Örnek 12 - Concat
-            <br> //string veri1 = "Ali", veri2 = "Ahmet";
+   <br><h3>Örnek 12 - Concat</h3>
+             <br> //string veri1 = "Ali", veri2 = "Ahmet";
              <br>//string veri3=String.Concat(veri1," ",veri2);
              <br>//Console.WriteLine(veri3);
 
