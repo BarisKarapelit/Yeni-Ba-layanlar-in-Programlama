@@ -103,3 +103,197 @@
             <br>//    Console.WriteLine("Ehliyet Alamazsınız!!!");
             <br>//}
             
+   <h2>Ornek 2 - Soyad Sorgulama</h2>
+            <br> //string soyad;
+             <br>//Console.WriteLine("Ünlü şairimiz Mehmet Akif'in Soyadı Nedir?");
+             <br>//soyad=Console.ReadLine();
+            <br> //soyad=soyad.ToLower();
+            <br> //if (soyad=="ersoy")
+           <br>  //{
+            <br> //    Console.WriteLine("Tebrikler Bildiniz!!!");
+            <br> //}
+            <br> //else
+            <br> //{
+            <br> //    Console.WriteLine("Üzgünüz Bilemediniz!!!");
+            <br> //}
+           
+ <h2>Örnek 3 - 3e ve 5 e tam bolme islemi</h2>
+           <br> //int sayi;
+            <br>//Console.Write("Sayı Giriniz=");
+           <br> //sayi=int.Parse(Console.ReadLine());
+           <br> //if(sayi%3==0 && sayi%5==0)
+           <br> //{
+           <br> //    Console.WriteLine("Sayı Hem 3e hem 5e tam bolunur");
+           <br> //}
+           <br> //else
+           <br> //    Console.WriteLine("Sayı 3 e ve 5 bolunemez");
+           
+           <h2> Ornek 4 - Askerlik Durumu Sorgulama</h2>
+           <br> //char cinsiyet;
+           <br> //byte yas;
+           <br> //Console.Write("Cinsiyetiniz=");
+           <br> //cinsiyet=Console.ReadLine()[0];
+           <br> //if(cinsiyet=='e')
+           <br> //{
+           <br> //    Console.Write("Yasınız=");
+          <br>  //    yas=byte.Parse(Console.ReadLine());
+          <br>  //    if(yas>=20)
+          <br>  //    {
+           <br> //        Console.WriteLine("Askere Gidebilirsiniz!!!");
+           <br> //    }
+           <br> //    else
+           <br> //        Console.WriteLine("Askere Gidemezsiniz!!!");
+           <br> //}
+            <br>//else
+           <br> //    Console.WriteLine("Bayanlar Askere Gidemez");
+            
+            <h2> Ornek 5- Sayıların Karsılastırılması</h2>
+          <br>  //int sayi1;
+          <br>  //int sayi2;
+           <br> //Console.Write("1. Sayı=");
+           <br> //sayi1=int.Parse(Console.ReadLine());
+           <br> //Console.Write("2. Sayı=");
+           <br> //sayi2=int.Parse(Console.ReadLine());
+           <br> //if(sayi1>sayi2)
+           <br> //    Console.WriteLine("{0}>{1}",sayi1,sayi2);
+           <br> //else if(sayi2>sayi1)
+           <br> //    Console.WriteLine("{0}>{1}",sayi2,sayi1);
+           <br> //else
+           <br> //    Console.WriteLine("{0}={1}",sayi1,sayi2);
+           
+            <h2> Örnek 6 - 5'lik Not Sistemi yapımı</h2>
+           <br> //byte not;
+            <br>//Console.Write("Notu Giriniz");
+            <br>//not=byte.Parse(Console.ReadLine());
+          <br>  //if(not>=85)
+           <br> //    Console.WriteLine("5");
+           <br> //else if(not>=70)
+           <br> //    Console.WriteLine("4");
+           <br> //else if(not>=55)
+           <br> //    Console.WriteLine("3");
+           <br> //else if(not>=45)
+          <br>  //    Console.WriteLine("2");
+          <br>  //else
+          <br>  //    Console.WriteLine("1");
+            
+            <h2> ORnek 7 Kullanıcı Kontrolu</h2>
+           <br> //string kadi,sifre;
+           <br> //Console.Write("Kullanıcı Adı=");
+           <br> //kadi=Console.ReadLine();
+           <br> //Console.Write("Sifre=");
+           <br> //sifre=Console.ReadLine();
+           <br> //if(kadi=="Admin" && sifre=="1234")
+           <br> //{
+           <br> //    Console.WriteLine("Admin Paneline Hoşgeldiniz!!!");
+           <br> //}
+            <br>//else
+           <br> //    Console.WriteLine("Kullanıcı Adı yada Sifre Yanlıs");
+           
+            <h2>Ornek 8 - Basit Hesap Makinesi</h2>
+          <br>  //float sayi1,sayi2,sonuc;
+           <br> //char islem;
+           <br> //Console.Write("Birinci sayıyı giriniz=");
+           <br> //sayi1=int.Parse(Console.ReadLine());
+           <br> //Console.Write("İkinci Sayıyı Giriniz=");
+           <br> //sayi2=int.Parse(Console.ReadLine());
+           <br> //Console.Write("Hangi İşlemi Yapmak İstiyorsunuz=");
+            <br>//islem=Console.ReadLine()[0];
+            <br>//if(islem=='+')
+           <br> //    sonuc=sayi1+sayi2;
+           <br> //else if(islem=='-')
+           <br> //    sonuc=sayi1-sayi2;
+           <br> //else if(islem=='*')
+           <br> //    sonuc=sayi1*sayi2;
+          <br>  //else 
+          <br>  //    sonuc=sayi1/sayi2;
+          <br>  //Console.WriteLine("Sonuc={0}",sonuc);
+           
+            <h2> Örnek 9 - Switch- Case DEyimi</h2>
+           <br> //int sayi=9;
+           <br> //switch (sayi)
+          <br>  //{
+          <br>  //    case 1:
+          <br>  //        Console.WriteLine("1 e basıldı");
+           <br> //        break;
+          <br>  //    case 2:
+           <br> //        Console.WriteLine("2 e basıldı");
+           <br> //        break;
+           <br> //    case 3:
+           <br> //        Console.WriteLine("3 e basıldı");
+           <br> //        break;
+          <br>  //    default:
+           <br> //        Console.WriteLine("Belirtilen sayılara basıldı");
+           <br> //        break;
+           <br> //}
+            
+            <h2> Örnek 10 - 1-12 ay degerlerinin sözel karsılıgını veren prg.</h2>
+            <br>//byte ay;
+            <br>//Console.Write("Sayısal olarak ay değerini giriniz=");
+           <br> //ay=byte.Parse(Console.ReadLine());
+           <br> //switch(ay)
+           <br> //{
+           <br> //    case 1: Console.WriteLine("Ocak"); break;
+           <br> //    case 2: Console.WriteLine("Şubat"); break;
+           <br> //    case 3: Console.WriteLine("Mart"); break;
+           <br> //    case 4: Console.WriteLine("Nisan"); break;
+           <br> //    case 5: Console.WriteLine("Mayıs"); break;
+           <br> //    case 6: Console.WriteLine("Haziran"); break;
+           <br> //    case 7: Console.WriteLine("Temmuz"); break;
+           <br> //    case 8: Console.WriteLine("Agustos"); break;
+           <br> //    case 9: Console.WriteLine("Eylül"); break;
+           <br> //    case 10: Console.WriteLine("Ekim"); break;
+           <br> //    case 11: Console.WriteLine("Kasım"); break;
+           <br> //    case 12: Console.WriteLine("Aralık"); break;
+           <br> //    default: Console.WriteLine("Belirtilen ay değeri bulunamadı!!"); break;
+            <br>//}
+            
+            <h2> Örnek 11 - Alan ve Cevre Hesabı</h2>
+           <br> //string sekil;
+           <br> //int alan=0;
+            <br>//int cevre=0;
+            <br>//Console.Write("Sekil Giriniz=");
+            <br>//sekil=Console.ReadLine();
+           <br> //switch(sekil)
+            <br>//{
+            <br>//    case "kare":
+           <br> //        int kenar;
+           <br> //        Console.Write("Kenar uzunlugunu giriniz=");
+            <br>//        kenar=int.Parse(Console.ReadLine());
+            <br>//        alan=kenar*kenar;
+            <br>//        cevre=4*kenar;
+           <br> //        break;
+            <br>//    case "ücgen":
+            <br>//        int yukseklik;
+           <br> //        Console.Write("Kenar Uzunlugu=");
+            <br>//        kenar=int.Parse(Console.ReadLine());
+           <br> //        Console.WriteLine("Yuksekligi giriniz=");
+            <br>//        yukseklik=int.Parse(Console.ReadLine());
+            <br>//        alan=kenar*yukseklik/2;
+            <br>//        cevre=3*kenar;
+            <br>//        break;
+            <br>//    default:
+           <br> //        Console.WriteLine("Belirtilen sekil degeri degildir!!!");
+           <br> //        break;
+           <br> //}
+           <br> //Console.WriteLine("Alan={0}",alan);
+            <br>//Console.WriteLine("Cevre={0}",cevre);
+           
+      <h2> Örnek 12 - Hesap Makinesi</h2>
+            <br>//int sayi1,sayi2,sonuc=0;
+           <br> //char islem;
+            <br>//Console.Write("1. Sayıyı Giriniz=");
+           <br> //sayi1=int.Parse(Console.ReadLine());
+           <br> //Console.Write("2. Sayıyı Giriniz");
+           <br> //sayi2=int.Parse(Console.ReadLine());
+           <br> //Console.Write("Hangi işlemi yapmak istiyorsunuz(+-*/)=");
+           <br> //islem=Console.ReadLine()[0];
+           <br> //switch (islem)
+           <br> //{
+            <br>//    case '+': sonuc=sayi1+sayi2; break;
+           <br> //    case '-': sonuc = sayi1 - sayi2; break;
+           <br> //    case '*': sonuc = sayi1 * sayi2; break;
+           <br> //    case '/': sonuc = sayi1 / sayi2; break;
+            <br>//    default: Console.WriteLine("Belirtilen islem girilmedi!!!"); break;
+            <br>//}
+           <br> //Console.WriteLine("İşlem Sonucu ={0}",sonuc);
+           
