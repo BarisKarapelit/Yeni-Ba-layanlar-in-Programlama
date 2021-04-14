@@ -297,3 +297,36 @@
             <br>//}
            <br> //Console.WriteLine("İşlem Sonucu ={0}",sonuc);
            
+<h2>Uyg4_DonguDeyimleri</h2>
+<h3>  ÖRnek 1- 1-10 arası sayıları ekrana yazan prg.</h3> 
+            <br> //int i;
+             <br>//for (i=1;i<=10;i++)
+            <br> //{
+            <br> //    Console.WriteLine(i);
+           <br>  //}
+           
+   <h3>  Örnek 2 - d-r arası harfleri ekrana yazan prg.</h3> 
+           <br>  //char harf='d';
+            <br> //for(;harf<='r';)
+           <br>  //{
+           <br>  //    harf++;
+           <br>  //    Console.WriteLine(harf);
+           <br>  //}
+            
+   <h3>  ÖRnek 3 - 10-0 arası sayıları ekrana yazan prg.</h3> 
+           <br>  //for(int i=10;i>=1;i--)
+           <br>  //    Console.WriteLine(i);
+            #endregion
+            #region Örnek 4 - Degiskenlerin durumlarını kontrol eden prog.
+           <br>  //for(int i=0,j=10;j>=i;j--,i++)
+             <br>//    Console.WriteLine("i:{0}    j:{1}",i,j);
+          
+   <h3> Örnek 5 - Klavyeden girilen sayıya kadar olan sayıların top.</h3> 
+                <br> //int sayi;
+                 <br>//int sayac=0;
+                 <br>//Console.Write("Sayı Gir=");
+                 <br>//sayi=int.Parse(Console.ReadLine());
+                <br> //for(int i=1;i<=sayi;i++)
+                <br> //    sayac+=i;
+                <br> //Console.WriteLine("Toplam={0}",sayac);
+          
