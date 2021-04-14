@@ -89,7 +89,7 @@
              <br>//a=float.Parse(b);
              <br>//b=a.ToString();
 
-   <h2>Uyg3_KararKontrolYapiları</h2>
+   <h3>Uyg3_KararKontrolYapiları</h3>
      <h3>Ornek 1 - Ehliyet Durumu Sorgulama</h3>
            <br> //byte yas;
             <br>//Console.Write("Lütfen Yasınızı Giriniz=");
@@ -103,7 +103,7 @@
             <br>//    Console.WriteLine("Ehliyet Alamazsınız!!!");
             <br>//}
             
-   <h2>Ornek 2 - Soyad Sorgulama</h2>
+   <h3>Ornek 2 - Soyad Sorgulama</h3>
             <br> //string soyad;
              <br>//Console.WriteLine("Ünlü şairimiz Mehmet Akif'in Soyadı Nedir?");
              <br>//soyad=Console.ReadLine();
@@ -117,7 +117,7 @@
             <br> //    Console.WriteLine("Üzgünüz Bilemediniz!!!");
             <br> //}
            
- <h2>Örnek 3 - 3e ve 5 e tam bolme islemi</h2>
+ <h3>Örnek 3 - 3e ve 5 e tam bolme islemi</h3>
            <br> //int sayi;
             <br>//Console.Write("Sayı Giriniz=");
            <br> //sayi=int.Parse(Console.ReadLine());
@@ -128,7 +128,7 @@
            <br> //else
            <br> //    Console.WriteLine("Sayı 3 e ve 5 bolunemez");
            
-   <h2> Ornek 4 - Askerlik Durumu Sorgulama</h2>
+   <h3> Ornek 4 - Askerlik Durumu Sorgulama</h3>
            <br> //char cinsiyet;
            <br> //byte yas;
            <br> //Console.Write("Cinsiyetiniz=");
@@ -147,7 +147,7 @@
             <br>//else
            <br> //    Console.WriteLine("Bayanlar Askere Gidemez");
             
-  <h2> Ornek 5- Sayıların Karsılastırılması</h2>
+  <h3> Ornek 5- Sayıların Karsılastırılması</h3>
           <br>  //int sayi1;
           <br>  //int sayi2;
            <br> //Console.Write("1. Sayı=");
@@ -161,7 +161,7 @@
            <br> //else
            <br> //    Console.WriteLine("{0}={1}",sayi1,sayi2);
            
-  <h2> Örnek 6 - 5'lik Not Sistemi yapımı</h2>
+  <h3> Örnek 6 - 5'lik Not Sistemi yapımı</h3>
            <br> //byte not;
             <br>//Console.Write("Notu Giriniz");
             <br>//not=byte.Parse(Console.ReadLine());
@@ -176,7 +176,7 @@
           <br>  //else
           <br>  //    Console.WriteLine("1");
             
-   <h2> ORnek 7 Kullanıcı Kontrolu</h2>
+   <h3> ORnek 7 Kullanıcı Kontrolu</h3>
            <br> //string kadi,sifre;
            <br> //Console.Write("Kullanıcı Adı=");
            <br> //kadi=Console.ReadLine();
@@ -189,7 +189,7 @@
             <br>//else
            <br> //    Console.WriteLine("Kullanıcı Adı yada Sifre Yanlıs");
            
-   <h2>Ornek 8 - Basit Hesap Makinesi</h2>
+   <h3>Ornek 8 - Basit Hesap Makinesi</h3>
           <br>  //float sayi1,sayi2,sonuc;
            <br> //char islem;
            <br> //Console.Write("Birinci sayıyı giriniz=");
@@ -208,7 +208,7 @@
           <br>  //    sonuc=sayi1/sayi2;
           <br>  //Console.WriteLine("Sonuc={0}",sonuc);
            
-   <h2> Örnek 9 - Switch- Case DEyimi</h2>
+   <h3> Örnek 9 - Switch- Case DEyimi</h3>
            <br> //int sayi=9;
            <br> //switch (sayi)
           <br>  //{
@@ -226,7 +226,7 @@
            <br> //        break;
            <br> //}
             
-  <h2> Örnek 10 - 1-12 ay degerlerinin sözel karsılıgını veren prg.</h2>
+  <h3> Örnek 10 - 1-12 ay degerlerinin sözel karsılıgını veren prg.</h3>
             <br>//byte ay;
             <br>//Console.Write("Sayısal olarak ay değerini giriniz=");
            <br> //ay=byte.Parse(Console.ReadLine());
@@ -247,7 +247,7 @@
            <br> //    default: Console.WriteLine("Belirtilen ay değeri bulunamadı!!"); break;
             <br>//}
             
-<h2> Örnek 11 - Alan ve Cevre Hesabı</h2>
+<h3> Örnek 11 - Alan ve Cevre Hesabı</h3>
            <br> //string sekil;
            <br> //int alan=0;
             <br>//int cevre=0;
@@ -278,7 +278,7 @@
            <br> //Console.WriteLine("Alan={0}",alan);
             <br>//Console.WriteLine("Cevre={0}",cevre);
            
-<h2> Örnek 12 - Hesap Makinesi</h2>
+<h3> Örnek 12 - Hesap Makinesi</h3>
             <br>//int sayi1,sayi2,sonuc=0;
            <br> //char islem;
             <br>//Console.Write("1. Sayıyı Giriniz=");
