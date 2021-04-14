@@ -1,7 +1,7 @@
 ﻿# Yeni-Baslayanlar-icin-Programlama
 <br><h2>Uyg1-Visual_Studio_Ortamini_Kullanma</h2><br>
 
-<br><h2>Uyg2_SabitlerveDegiskenler</h2><br>
+<br><h2>Uyg2_SabitlerveDegiskenler</h2>
   <h3>Ornek1</h3>
             <br> //Bu kod Klavyeden değer okuyup okunan değeri mesaj olarak ekranda gösteren komuttur
              <br> //int yas;
