@@ -89,3 +89,17 @@
              <br>//a=float.Parse(b);
              <br>//b=a.ToString();
 
+   <h2>Uyg3_KararKontrolYapiları</h2>
+     <h3>Ornek 1 - Ehliyet Durumu Sorgulama</h3>
+           <br> //byte yas;
+            <br>//Console.Write("Lütfen Yasınızı Giriniz=");
+            <br>//yas=byte.Parse(Console.ReadLine());
+            <br>//if (yas > 18)
+            <br>//{
+            <br>//    Console.WriteLine("Ehliyet Alabilirsiniz!!!");
+            <br>//}
+            <br>//else
+            <br>//{
+            <br>//    Console.WriteLine("Ehliyet Alamazsınız!!!");
+            <br>//}
+            
