@@ -128,7 +128,7 @@
            <br> //else
            <br> //    Console.WriteLine("Sayı 3 e ve 5 bolunemez");
            
-           <h2> Ornek 4 - Askerlik Durumu Sorgulama</h2>
+   <h2> Ornek 4 - Askerlik Durumu Sorgulama</h2>
            <br> //char cinsiyet;
            <br> //byte yas;
            <br> //Console.Write("Cinsiyetiniz=");
@@ -147,7 +147,7 @@
             <br>//else
            <br> //    Console.WriteLine("Bayanlar Askere Gidemez");
             
-            <h2> Ornek 5- Sayıların Karsılastırılması</h2>
+  <h2> Ornek 5- Sayıların Karsılastırılması</h2>
           <br>  //int sayi1;
           <br>  //int sayi2;
            <br> //Console.Write("1. Sayı=");
@@ -161,7 +161,7 @@
            <br> //else
            <br> //    Console.WriteLine("{0}={1}",sayi1,sayi2);
            
-            <h2> Örnek 6 - 5'lik Not Sistemi yapımı</h2>
+  <h2> Örnek 6 - 5'lik Not Sistemi yapımı</h2>
            <br> //byte not;
             <br>//Console.Write("Notu Giriniz");
             <br>//not=byte.Parse(Console.ReadLine());
@@ -176,7 +176,7 @@
           <br>  //else
           <br>  //    Console.WriteLine("1");
             
-            <h2> ORnek 7 Kullanıcı Kontrolu</h2>
+   <h2> ORnek 7 Kullanıcı Kontrolu</h2>
            <br> //string kadi,sifre;
            <br> //Console.Write("Kullanıcı Adı=");
            <br> //kadi=Console.ReadLine();
@@ -189,7 +189,7 @@
             <br>//else
            <br> //    Console.WriteLine("Kullanıcı Adı yada Sifre Yanlıs");
            
-            <h2>Ornek 8 - Basit Hesap Makinesi</h2>
+   <h2>Ornek 8 - Basit Hesap Makinesi</h2>
           <br>  //float sayi1,sayi2,sonuc;
            <br> //char islem;
            <br> //Console.Write("Birinci sayıyı giriniz=");
@@ -208,7 +208,7 @@
           <br>  //    sonuc=sayi1/sayi2;
           <br>  //Console.WriteLine("Sonuc={0}",sonuc);
            
-            <h2> Örnek 9 - Switch- Case DEyimi</h2>
+   <h2> Örnek 9 - Switch- Case DEyimi</h2>
            <br> //int sayi=9;
            <br> //switch (sayi)
           <br>  //{
@@ -226,7 +226,7 @@
            <br> //        break;
            <br> //}
             
-            <h2> Örnek 10 - 1-12 ay degerlerinin sözel karsılıgını veren prg.</h2>
+  <h2> Örnek 10 - 1-12 ay degerlerinin sözel karsılıgını veren prg.</h2>
             <br>//byte ay;
             <br>//Console.Write("Sayısal olarak ay değerini giriniz=");
            <br> //ay=byte.Parse(Console.ReadLine());
@@ -247,7 +247,7 @@
            <br> //    default: Console.WriteLine("Belirtilen ay değeri bulunamadı!!"); break;
             <br>//}
             
-            <h2> Örnek 11 - Alan ve Cevre Hesabı</h2>
+<h2> Örnek 11 - Alan ve Cevre Hesabı</h2>
            <br> //string sekil;
            <br> //int alan=0;
             <br>//int cevre=0;
@@ -278,7 +278,7 @@
            <br> //Console.WriteLine("Alan={0}",alan);
             <br>//Console.WriteLine("Cevre={0}",cevre);
            
-      <h2> Örnek 12 - Hesap Makinesi</h2>
+<h2> Örnek 12 - Hesap Makinesi</h2>
             <br>//int sayi1,sayi2,sonuc=0;
            <br> //char islem;
             <br>//Console.Write("1. Sayıyı Giriniz=");
