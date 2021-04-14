@@ -23,7 +23,7 @@
               <br>//bool yanit;
               <br>//yanit=true;
               <br>//yanit =false;
-   <br><h3> Örnek 5<h3>
+   <br><h3> Örnek 5</h3>
               <br>//int sayi1=1,sayi2=2;
               <br>//float bolum;
               <br>//bolum=(float)sayi1/sayi2;
@@ -34,7 +34,7 @@
               <br>//int sayi=veri.Length;
               <br>//Console.WriteLine("Karakter sayısı="+sayi);
 
-   <br><h3> Örnek 7 - ToLower<h3>
+   <br><h3> Örnek 7 - ToLower</h3>
               <br>//string veri = "MerhAba DÜnya";
               <br>//Console.WriteLine(veri.ToLower());
              #endregion
