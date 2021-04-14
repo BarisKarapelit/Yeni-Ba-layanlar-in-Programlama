@@ -83,9 +83,9 @@
              <br>//Console.WriteLine(veri);
 
    <br><h3>Örnek 17 - Tip Dönüsümleri</h3>
-             <br>float a;
-             <br>string b="12";
-             <br>a=(float)Convert.ToDouble(b);
-             <br>a=float.Parse(b);
-             <br>b=a.ToString();</p>
+             <br>//float a;
+             <br>//string b="12";
+             <br>//a=(float)Convert.ToDouble(b);
+             <br>//a=float.Parse(b);
+             <br>//b=a.ToString();</p>
 
