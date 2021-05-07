@@ -8,6 +8,8 @@ namespace Uyg2_SabitlerveDegiskenler
 {
     class Program
     {
+        public static object Integer { get; private set; }
+
         static void Main(string[] args)
         {
 
@@ -802,7 +804,7 @@ namespace Uyg2_SabitlerveDegiskenler
             #region     Ornek 6- 0 20 arası çift sayıları ekrana yazan program
             char answer;
             int Valeu=0;
-            int start,end,number;
+            int start=0,EndNumber=0,number=0;
             bool a=true;
             do 
             {
@@ -822,21 +824,21 @@ namespace Uyg2_SabitlerveDegiskenler
                             do
                             {
                                 System.Console.Write("Başlangıç değerini gir :");
-                            } while (!Integer.TryParse(Console.ReadLine(),out start));
+                            } while (!int.TryParse(Console.ReadLine(), out start));
 
                             do
                             {
                                 System.Console.Write("Bitiş  değerini gir :");
-                            } while (!Integer.TryParse(Console.ReadLine(),out end));
-                            number=end;
-                            if (end>start)
+                            } while (!int.TryParse(Console.ReadLine(),out EndNumber));
+                            
+                            if (EndNumber>start)
                             {
                             a=false;                                
                             }
             }
-  
-            
-            while (number<=end)
+            number = EndNumber;
+
+            while (number<=start)
             {
                if(Valeu.Equals(2))
                {
@@ -851,7 +853,7 @@ namespace Uyg2_SabitlerveDegiskenler
                        System.Console.WriteLine(number);
                    }
                }
-               number+1;
+               number++;
 
             }
           

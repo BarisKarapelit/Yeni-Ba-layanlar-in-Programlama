@@ -11,3 +11,16 @@ C:\Users\baris\source\repos\Uyg2-SabitlerveDegiskenler\Uyg2-SabitlerveDegiskenle
 C:\Users\baris\source\repos\Uyg2-SabitlerveDegiskenler\Uyg2-SabitlerveDegiskenler\obj\Debug\netcoreapp3.1\Uyg2-SabitlerveDegiskenler.dll
 C:\Users\baris\source\repos\Uyg2-SabitlerveDegiskenler\Uyg2-SabitlerveDegiskenler\obj\Debug\netcoreapp3.1\Uyg2-SabitlerveDegiskenler.pdb
 C:\Users\baris\source\repos\Uyg2-SabitlerveDegiskenler\Uyg2-SabitlerveDegiskenler\obj\Debug\netcoreapp3.1\Uyg2-SabitlerveDegiskenler.genruntimeconfig.cache
+C:\Users\baris\Source\Repos\Yeni-Baslayanlar-icin-Programlama\Uyg2-SabitlerveDegiskenler\bin\Debug\netcoreapp3.1\Uyg2-SabitlerveDegiskenler.exe
+C:\Users\baris\Source\Repos\Yeni-Baslayanlar-icin-Programlama\Uyg2-SabitlerveDegiskenler\bin\Debug\netcoreapp3.1\Uyg2-SabitlerveDegiskenler.deps.json
+C:\Users\baris\Source\Repos\Yeni-Baslayanlar-icin-Programlama\Uyg2-SabitlerveDegiskenler\bin\Debug\netcoreapp3.1\Uyg2-SabitlerveDegiskenler.runtimeconfig.json
+C:\Users\baris\Source\Repos\Yeni-Baslayanlar-icin-Programlama\Uyg2-SabitlerveDegiskenler\bin\Debug\netcoreapp3.1\Uyg2-SabitlerveDegiskenler.runtimeconfig.dev.json
+C:\Users\baris\Source\Repos\Yeni-Baslayanlar-icin-Programlama\Uyg2-SabitlerveDegiskenler\bin\Debug\netcoreapp3.1\Uyg2-SabitlerveDegiskenler.dll
+C:\Users\baris\Source\Repos\Yeni-Baslayanlar-icin-Programlama\Uyg2-SabitlerveDegiskenler\bin\Debug\netcoreapp3.1\Uyg2-SabitlerveDegiskenler.pdb
+C:\Users\baris\Source\Repos\Yeni-Baslayanlar-icin-Programlama\Uyg2-SabitlerveDegiskenler\obj\Debug\netcoreapp3.1\Uyg2-SabitlerveDegiskenler.csprojAssemblyReference.cache
+C:\Users\baris\Source\Repos\Yeni-Baslayanlar-icin-Programlama\Uyg2-SabitlerveDegiskenler\obj\Debug\netcoreapp3.1\Uyg2-SabitlerveDegiskenler.AssemblyInfoInputs.cache
+C:\Users\baris\Source\Repos\Yeni-Baslayanlar-icin-Programlama\Uyg2-SabitlerveDegiskenler\obj\Debug\netcoreapp3.1\Uyg2-SabitlerveDegiskenler.AssemblyInfo.cs
+C:\Users\baris\Source\Repos\Yeni-Baslayanlar-icin-Programlama\Uyg2-SabitlerveDegiskenler\obj\Debug\netcoreapp3.1\Uyg2-SabitlerveDegiskenler.csproj.CoreCompileInputs.cache
+C:\Users\baris\Source\Repos\Yeni-Baslayanlar-icin-Programlama\Uyg2-SabitlerveDegiskenler\obj\Debug\netcoreapp3.1\Uyg2-SabitlerveDegiskenler.dll
+C:\Users\baris\Source\Repos\Yeni-Baslayanlar-icin-Programlama\Uyg2-SabitlerveDegiskenler\obj\Debug\netcoreapp3.1\Uyg2-SabitlerveDegiskenler.pdb
+C:\Users\baris\Source\Repos\Yeni-Baslayanlar-icin-Programlama\Uyg2-SabitlerveDegiskenler\obj\Debug\netcoreapp3.1\Uyg2-SabitlerveDegiskenler.genruntimeconfig.cache
