@@ -803,24 +803,23 @@ namespace Uyg2_SabitlerveDegiskenler
             #endregion
             #region     Ornek 6- 0 20 arası çift sayıları ekrana yazan program
             char answer;
-            int Valeu=0;
-            int start=0,EndNumber=0,number=0;
-            bool a=true;
+             int deger=0;
+            int start,EndNumber,number=0;
+            bool a=true,b=true;
             do 
             {
                 System.Console.Write("Çift sayılarımı yada tek sayılarımı (Ç/T): ");
-            }while (!char.TryParse(Console.ReadLine().ToLower(),out answer));
+            }while (!char.TryParse(Console.ReadLine().ToUpper(),out answer));
         
-            if (answer.Equals('Ç'))
+            if (answer=='Ç')
             {
-                Valeu=2;
+                deger=2;
             } else if(answer.Equals('T'))
             {
-                Valeu=1;
+                deger=1;
             }
             
-            while(a)
-                            {
+           
                             do
                             {
                                 System.Console.Write("Başlangıç değerini gir :");
@@ -830,30 +829,46 @@ namespace Uyg2_SabitlerveDegiskenler
                             {
                                 System.Console.Write("Bitiş  değerini gir :");
                             } while (!int.TryParse(Console.ReadLine(),out EndNumber));
-                            
-                            if (EndNumber>start)
+            while (a)
+            {
+                if (EndNumber>start)
                             {
                             a=false;                                
                             }
             }
             number = EndNumber;
 
-            while (number<=start)
+            while (b)
             {
-               if(Valeu.Equals(2))
+                Console.WriteLine(answer);
+               if(deger==2)
                {
-                   if(number%2==0)
-                   {
-                       System.Console.WriteLine(number);
-                   }
-               } else if(Valeu.Equals(1))
+                  
+                        for(int i=start;i<=number;i++)
+                        {
+                            if (i%2==0)
+                            {
+                                System.Console.WriteLine(i);
+                            }
+                            
+                        }
+                       
+                        b = false;
+                    
+               } else if(deger.Equals(1))
                {
-                   if(number%2==1)
-                   {
-                       System.Console.WriteLine(number);
-                   }
-               }
-               number++;
+                    for (int i = start; i <= number; i++)
+                    {
+                        if (i % 2 == 1)
+                        {
+                            System.Console.WriteLine(i);
+                        }
+
+                    }
+
+                    b = false;
+                }
+               
 
             }
           

@@ -8,19 +8,24 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\baris\\.nuget\\packages\\": {}
+    "C:\\Users\\baris\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\baris\\Source\\Repos\\Yeni-Baslayanlar-icin-Programlama\\Uyg2-SabitlerveDegiskenler\\Uyg2-SabitlerveDegiskenler.csproj",
+      "projectUniqueName": "C:\\Users\\baris\\source\\repos\\Yeni-Baslayanlar-icin-Programlama\\Uyg2-SabitlerveDegiskenler\\Uyg2-SabitlerveDegiskenler.csproj",
       "projectName": "Uyg2-SabitlerveDegiskenler",
-      "projectPath": "C:\\Users\\baris\\Source\\Repos\\Yeni-Baslayanlar-icin-Programlama\\Uyg2-SabitlerveDegiskenler\\Uyg2-SabitlerveDegiskenler.csproj",
+      "projectPath": "C:\\Users\\baris\\source\\repos\\Yeni-Baslayanlar-icin-Programlama\\Uyg2-SabitlerveDegiskenler\\Uyg2-SabitlerveDegiskenler.csproj",
       "packagesPath": "C:\\Users\\baris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\baris\\Source\\Repos\\Yeni-Baslayanlar-icin-Programlama\\Uyg2-SabitlerveDegiskenler\\obj\\",
+      "outputPath": "C:\\Users\\baris\\source\\repos\\Yeni-Baslayanlar-icin-Programlama\\Uyg2-SabitlerveDegiskenler\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\baris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
