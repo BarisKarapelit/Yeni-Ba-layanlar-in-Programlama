@@ -802,75 +802,75 @@ namespace Uyg2_SabitlerveDegiskenler
             //#endregion
             #endregion
             #region     Ornek 6- 0 20 arası çift sayıları ekrana yazan program
-            char answer;
-             int deger=0;
-            int start,EndNumber,number=0;
-            bool a=true,b=true;
-            do 
-            {
-                System.Console.Write("Çift sayılarımı yada tek sayılarımı (Ç/T): ");
-            }while (!char.TryParse(Console.ReadLine().ToUpper(),out answer));
+            //char answer;
+            // int deger=0;
+            //int start,EndNumber,number=0;
+            //bool a=true,b=true;
+            //do 
+            //{
+            //    System.Console.Write("Çift sayılarımı yada tek sayılarımı (Ç/T): ");
+            //}while (!char.TryParse(Console.ReadLine().ToUpper(),out answer));
         
-            if (answer=='Ç')
-            {
-                deger=2;
-            } else if(answer.Equals('T'))
-            {
-                deger=1;
-            }
+            //if (answer=='Ç')
+            //{
+            //    deger=2;
+            //} else if(answer.Equals('T'))
+            //{
+            //    deger=1;
+            //}
             
            
-                            do
-                            {
-                                System.Console.Write("Başlangıç değerini gir :");
-                            } while (!int.TryParse(Console.ReadLine(), out start));
+            //                do
+            //                {
+            //                    System.Console.Write("Başlangıç değerini gir :");
+            //                } while (!int.TryParse(Console.ReadLine(), out start));
 
-                            do
-                            {
-                                System.Console.Write("Bitiş  değerini gir :");
-                            } while (!int.TryParse(Console.ReadLine(),out EndNumber));
-            while (a)
-            {
-                if (EndNumber>start)
-                            {
-                            a=false;                                
-                            }
-            }
-            number = EndNumber;
+            //                do
+            //                {
+            //                    System.Console.Write("Bitiş  değerini gir :");
+            //                } while (!int.TryParse(Console.ReadLine(),out EndNumber));
+            //while (a)
+            //{
+            //    if (EndNumber>start)
+            //                {
+            //                a=false;                                
+            //                }
+            //}
+            //number = EndNumber;
 
-            while (b)
-            {
-                Console.WriteLine(answer);
-               if(deger==2)
-               {
+            //while (b)
+            //{
+            //    Console.WriteLine(answer);
+            //   if(deger==2)
+            //   {
                   
-                        for(int i=start;i<=number;i++)
-                        {
-                            if (i%2==0)
-                            {
-                                System.Console.WriteLine(i);
-                            }
+            //            for(int i=start;i<=number;i++)
+            //            {
+            //                if (i%2==0)
+            //                {
+            //                    System.Console.WriteLine(i);
+            //                }
                             
-                        }
+            //            }
                        
-                        b = false;
+            //            b = false;
                     
-               } else if(deger.Equals(1))
-               {
-                    for (int i = start; i <= number; i++)
-                    {
-                        if (i % 2 == 1)
-                        {
-                            System.Console.WriteLine(i);
-                        }
+            //   } else if(deger.Equals(1))
+            //   {
+            //        for (int i = start; i <= number; i++)
+            //        {
+            //            if (i % 2 == 1)
+            //            {
+            //                System.Console.WriteLine(i);
+            //            }
 
-                    }
+            //        }
 
-                    b = false;
-                }
+            //        b = false;
+            //    }
                
 
-            }
+            //}
           
 
 
