@@ -801,6 +801,7 @@ namespace Uyg2_SabitlerveDegiskenler
 
             //#endregion
             #endregion
+
             #region     Ornek 6- 0 20 arası çift sayıları ekrana yazan program
             //char answer;
             // int deger=0;
@@ -810,7 +811,7 @@ namespace Uyg2_SabitlerveDegiskenler
             //{
             //    System.Console.Write("Çift sayılarımı yada tek sayılarımı (Ç/T): ");
             //}while (!char.TryParse(Console.ReadLine().ToUpper(),out answer));
-        
+
             //if (answer=='Ç')
             //{
             //    deger=2;
@@ -818,8 +819,8 @@ namespace Uyg2_SabitlerveDegiskenler
             //{
             //    deger=1;
             //}
-            
-           
+
+
             //                do
             //                {
             //                    System.Console.Write("Başlangıç değerini gir :");
@@ -843,18 +844,18 @@ namespace Uyg2_SabitlerveDegiskenler
             //    Console.WriteLine(answer);
             //   if(deger==2)
             //   {
-                  
+
             //            for(int i=start;i<=number;i++)
             //            {
             //                if (i%2==0)
             //                {
             //                    System.Console.WriteLine(i);
             //                }
-                            
+
             //            }
-                       
+
             //            b = false;
-                    
+
             //   } else if(deger.Equals(1))
             //   {
             //        for (int i = start; i <= number; i++)
@@ -868,12 +869,65 @@ namespace Uyg2_SabitlerveDegiskenler
 
             //        b = false;
             //    }
-               
+
 
             //}
-          
 
 
+
+
+            #endregion
+
+            #region Örnek 8- 0-20 Arası tek sayıları ekranaya yazan prg.
+            //int sayi = 0;
+            //do
+            //{
+            //    if (sayi%2==1)
+            //    {
+            //        Console.WriteLine(sayi);
+            //    }
+            //    sayi++;
+            //} while (sayi<=20);
+            #endregion
+
+            #region Örnek 9 -Dallama Komutu Örnekleri
+
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    Console.WriteLine(i);
+            //    if (i==5)
+            //    {
+            //        break;
+            //    }
+            //}
+
+            #endregion
+
+            #region Örnek 10 - Contiunue Kelimesi 
+
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    if (i == 5)
+            //    {
+            //        continue;
+            //    }
+
+            //    Console.WriteLine(i);
+
+            //}
+
+            #endregion
+
+            #region Örnek 11 - Return Kelimesi
+
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    if (i==5)
+            //    {
+            //        return;//kapatma code
+            //    }
+            //    Console.WriteLine(i);
+            //}
 
             #endregion
 
