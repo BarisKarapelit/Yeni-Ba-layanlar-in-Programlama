@@ -944,6 +944,27 @@ namespace Uyg2_SabitlerveDegiskenler
 
             #endregion
 
+            #region Örnek 13 - 0-100 arası asal olan sayıları ekrana yazan prg.
+            
+            for (int i = 2; i <= 100; i++)
+            {
+                bool asaldir = true;
+                for (int j = 2; j < i; j++)
+                {
+                    if (i%j==0)
+                    {
+                        asaldir = false;
+                    }
+                }
+                if (asaldir==true)
+                {
+                    Console.WriteLine(i);
+                }
+                
+                
+            }
+
+            #endregion
 
             #endregion
 
