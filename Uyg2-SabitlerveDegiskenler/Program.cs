@@ -931,6 +931,20 @@ namespace Uyg2_SabitlerveDegiskenler
 
             #endregion
 
+            #region Örnek 12 - Harfleri Yazma
+
+            //for (char harf='A';harf<='Z';harf++)
+            //{
+            //    Console.WriteLine(harf);
+            //    if (harf=='K')
+            //    {
+            //        break;
+            //    }
+            //}
+
+            #endregion
+
+
             #endregion
 
         }
