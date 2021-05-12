@@ -945,23 +945,41 @@ namespace Uyg2_SabitlerveDegiskenler
             #endregion
 
             #region Örnek 13 - 0-100 arası asal olan sayıları ekrana yazan prg.
-            
-            for (int i = 2; i <= 100; i++)
+
+            //for (int i = 2; i <= 100; i++)
+            //{
+            //    bool asaldir = true;
+            //    for (int j = 2; j < i; j++)
+            //    {
+            //        if (i%j==0)
+            //        {
+            //            asaldir = false;
+            //            break;
+            //        }
+            //    }
+            //    if (asaldir==true)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+
+
+            //}
+
+            #endregion
+
+            #region Örnek 14 - Yıldız İşareti Yapan Prg.
+
+            int number;
+            Console.Write("Enter number :  ");
+            number = int.Parse(Console.ReadLine());
+            for (int i = 0; i <= number; i++)
             {
-                bool asaldir = true;
-                for (int j = 2; j < i; j++)
+                for (int j = 0; j <=i; j++)
                 {
-                    if (i%j==0)
-                    {
-                        asaldir = false;
-                    }
+                    Console.Write("*");
+                    
                 }
-                if (asaldir==true)
-                {
-                    Console.WriteLine(i);
-                }
-                
-                
+                Console.WriteLine();
             }
 
             #endregion
