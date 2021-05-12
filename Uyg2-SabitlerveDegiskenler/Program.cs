@@ -969,19 +969,51 @@ namespace Uyg2_SabitlerveDegiskenler
 
             #region Örnek 14 - Yıldız İşareti Yapan Prg.
 
-            int number;
-            Console.Write("Enter number :  ");
-            number = int.Parse(Console.ReadLine());
-            for (int i = 0; i <= number; i++)
-            {
-                for (int j = 0; j <=i; j++)
-                {
-                    Console.Write("*");
-                    
-                }
-                Console.WriteLine();
-            }
+            //int number;
+            //Console.Write("Enter number :  ");
+            //number = int.Parse(Console.ReadLine());
+            //for (int i = 0; i <= number; i++)
+            //{
+            //    for (int j = 0; j <=i; j++)
+            //    {
+            //        Console.Write("*");
 
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            #endregion
+
+            #region Örnek 15 - Verilen Mesaji İstenilen Sayıda Ekrana Yazan Prg.
+
+            //int number;
+            //string message;
+            //Console.Write("Enter message :");
+            //message = Console.ReadLine();
+            //Console.Write("Enter the number of repetitions : ");
+            //number = int.Parse(Console.ReadLine());
+            //for (int i = 0; i < number; i++)
+            //{
+            //    Console.WriteLine("{0}. {1}",i+1,message);
+            //}
+            #endregion
+
+            #region Örnek 16 - Faktoriyel Hesabı Yapan Prg.
+
+            //int number,crp=1;
+            //Console.Write("Enter Number: ");
+            //number = int.Parse(Console.ReadLine());
+            //int j = number;
+            //Console.Write("{0}! =",number);
+            //for (int i = number; i > 1; i--)
+            //{
+            //    crp = crp * i;
+            //    Console.Write("{0}",j);
+            //    j--;
+            //    Console.Write(".");
+            //}
+            //Console.Write("1");
+            //Console.Write(" ={0}",crp);
             #endregion
 
             #endregion
