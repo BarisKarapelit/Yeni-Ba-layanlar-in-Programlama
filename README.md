@@ -3,7 +3,7 @@
 
 <br><h2>Uyg2_SabitlerveDegiskenler</h2>
   <h3>Ornek1</h3>
-            ```csharp
+            ```
             //Bu kod Klavyeden değer okuyup okunan değeri mesaj olarak ekranda gösteren komuttur
             int yas;
             Console.Write("Yaşınız=");
