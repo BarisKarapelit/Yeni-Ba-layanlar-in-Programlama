@@ -6,7 +6,7 @@
           
             
          ```csharp
-         //Bu kod Klavyeden değer okuyup okunan değeri mesaj olarak ekranda gösteren komuttur
+              Bu kod Klavyeden değer okuyup okunan değeri mesaj olarak ekranda gösteren komuttur
                     int yas;
                     Console.Write("Yaşınız=");
                     yas=int.Parse(Console.ReadLine());
