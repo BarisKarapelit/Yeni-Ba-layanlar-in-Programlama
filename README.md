@@ -43,14 +43,16 @@
 
    <br><h3> Örnek6 - Lenght özelligi</h3>
 ```csharp
-            string veri="Merhaba Dünya";
-            int sayi=veri.Length;
-            Console.WriteLine("Karakter sayısı="+sayi);
+                  string veri="Merhaba Dünya";
+                  int sayi=veri.Length;
+                  Console.WriteLine("Karakter sayısı="+sayi);
 ```
    <br><h3> Örnek 7 - ToLower</h3>
-              <br>//string veri = "MerhAba DÜnya";
-              <br>//Console.WriteLine(veri.ToLower());
-             #endregion
+```csharp
+                  string veri = "MerhAba DÜnya";
+                  Console.WriteLine(veri.ToLower());
+                  #endregion
+```
 
    <br><h3> Örnek 8- ToUpper</h3>
               <br>//string veri = "MerhAba DÜnya"; 
