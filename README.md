@@ -17,33 +17,36 @@
              //yas değişkeni bellekte 1 byte (8bit) yer kapladıgı icin max 255 sayısı yazılabilir
              //daha yüksek bir değer değişkenin icerisine atmak gerekiyorsa bellekte daha fazla yer kaplayan
              //degisken kullanmalıyız
-           byte yas=255; // Dogru Kullanım
-           byte yasi=256; //Yanlis Kullanım
+                   byte yas=255; // Dogru Kullanım
+                   byte yasi=256; //Yanlis Kullanım
   ```
 
   <br><h3> Örnek 3</h3>
-  ```csharp
-              char harf='A';
-              string veri="ALI";
-  ```
+```csharp
+                  char harf='A';
+                  string veri="ALI";
+```
 
    <br><h3>Örnek 4</h3>
-   ```csharp
-              bool yanit;
-              yanit=true;
-              yanit =false;
-   ```
+```csharp
+                  bool yanit;
+                  yanit=true;
+                  yanit =false;
+```
    <br><h3> Örnek 5</h3>
-              <br>//int sayi1=1,sayi2=2;
-              <br>//float bolum;
-              <br>//bolum=(float)sayi1/sayi2;
-              <br>//Console.WriteLine(bolum);
+```csharp
+                  int sayi1=1,sayi2=2;
+                  float bolum;
+                  bolum=(float)sayi1/sayi2;
+                  Console.WriteLine(bolum);
+```
 
    <br><h3> Örnek6 - Lenght özelligi</h3>
-            <br>  //string veri="Merhaba Dünya";
-              <br>//int sayi=veri.Length;
-              <br>//Console.WriteLine("Karakter sayısı="+sayi);
-
+```csharp
+            string veri="Merhaba Dünya";
+            int sayi=veri.Length;
+            Console.WriteLine("Karakter sayısı="+sayi);
+```
    <br><h3> Örnek 7 - ToLower</h3>
               <br>//string veri = "MerhAba DÜnya";
               <br>//Console.WriteLine(veri.ToLower());
