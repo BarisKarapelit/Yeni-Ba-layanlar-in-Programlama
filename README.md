@@ -55,57 +55,70 @@
 ```
 
    <br><h3> Örnek 8- ToUpper</h3>
+```csharp
               <br>//string veri = "MerhAba DÜnya"; 
               <br>//Console.WriteLine(veri.ToUpper());
+```
 
    <br><h3>  Örnek 9 - Trim</h3>
+```csharp
              <br>//string veri = "      MerhAba DÜnya       ";
              <br>//Console.Write(veri.Trim());
-
+```
    <br><h3>Örnek 10 - Substring</h3>
+```csharp
              <br>//string veri = "MerhAba DÜnya";
              <br>//Console.WriteLine(veri.Substring(8,5));
-
+```
    <br><h3>Örnek 11 - IndexOf</h3>
+```csharp  
              <br>//string veri = "MerhAba DÜnya";
              <br>//Console.WriteLine(veri.IndexOf('D'));
-
+```
    <br><h3>Örnek 12 - Concat</h3>
+```csharp
              <br> //string veri1 = "Ali", veri2 = "Ahmet";
              <br>//string veri3=String.Concat(veri1," ",veri2);
              <br>//Console.WriteLine(veri3);
-
+```
    <br><h3>Örnek 13 - Insert</h3>
+```csharp
              <br>//string veri="Ali Veli";
              <br>//string veri2=veri.Insert(4,"ve ");
              <br>//Console.WriteLine(veri2);
-
+```
    <br><h3>Örnek 14 - replace</h3>
+```csharp
              <br>//string veri="Ayşe";
              <br>//string degistirilmisveri=veri.Replace("A","e");
              <br>//Console.WriteLine(degistirilmisveri);
-
+```
   <br><h3>Örnek 15 - Remove</h3>
+```csharp
              <br>//string veri="Merhaba Dünya";
              <br>//string dveri=veri.Remove(3,3);
              <br>//Console.WriteLine(dveri);
-
+```
   <br><h3>Örnek 16- Object Degiskenini Kullanma</h3>
+```csharp
              <br>//object veri;
              <br>//veri="gahsdghas";
              <br>//veri=123;
              <br>//veri='A';
              <br>//Console.WriteLine(veri);
-
+```
    <br><h3>Örnek 17 - Tip Dönüsümleri</h3>
+```csharp
              <br>//float a;
              <br>//string b="12";
              <br>//a=(float)Convert.ToDouble(b);
              <br>//a=float.Parse(b);
              <br>//b=a.ToString();
-
+```
    <h3>Uyg3_KararKontrolYapiları</h3>
-     <h3>Ornek 1 - Ehliyet Durumu Sorgulama</h3>
+   
+     >> <h4>Ornek 1 - Ehliyet Durumu Sorgulama</h3>
+```csharp 
            <br> //byte yas;
             <br>//Console.Write("Lütfen Yasınızı Giriniz=");
             <br>//yas=byte.Parse(Console.ReadLine());
@@ -117,7 +130,7 @@
             <br>//{
             <br>//    Console.WriteLine("Ehliyet Alamazsınız!!!");
             <br>//}
-            
+```            
    <h3>Ornek 2 - Soyad Sorgulama</h3>
             <br> //string soyad;
              <br>//Console.WriteLine("Ünlü şairimiz Mehmet Akif'in Soyadı Nedir?");
