@@ -8,8 +8,7 @@
             int yas;
             Console.Write("Yaşınız=");
             yas=int.Parse(Console.ReadLine());
-            Console.WriteLine("Demek {0} yaşındasınız!!",yas);
-            ```
+            Console.WriteLine("Demek {0} yaşındasınız!!",yas);```
  <br><h3>Örnek2</h3>
              <br> //yas değişkeni bellekte 1 byte (8bit) yer kapladıgı icin max 255 sayısı yazılabilir
               <br>//daha yüksek bir değer değişkenin icerisine atmak gerekiyorsa bellekte daha fazla yer kaplayan
