@@ -13,20 +13,26 @@
                     Console.WriteLine("Demek {0} yaşındasınız!!",yas);
   ```
  <br><h3>Örnek2</h3>
-             <br> //yas değişkeni bellekte 1 byte (8bit) yer kapladıgı icin max 255 sayısı yazılabilir
-              <br>//daha yüksek bir değer değişkenin icerisine atmak gerekiyorsa bellekte daha fazla yer kaplayan
-             <br> //degisken kullanmalıyız
-            <br>  //byte yas=255; // Dogru Kullanım
-            <br>  //byte yasi=256; //Yanlis Kullanım
+ ```csharp
+             //yas değişkeni bellekte 1 byte (8bit) yer kapladıgı icin max 255 sayısı yazılabilir
+             //daha yüksek bir değer değişkenin icerisine atmak gerekiyorsa bellekte daha fazla yer kaplayan
+             //degisken kullanmalıyız
+           byte yas=255; // Dogru Kullanım
+           byte yasi=256; //Yanlis Kullanım
+  ```
 
   <br><h3> Örnek 3</h3>
-              <br>//char harf='A';
-              <br>//string veri="ALI";
+  ```csharp
+              char harf='A';
+              string veri="ALI";
+  ```
 
    <br><h3>Örnek 4</h3>
-              <br>//bool yanit;
-              <br>//yanit=true;
-              <br>//yanit =false;
+   ```csharp
+              bool yanit;
+              yanit=true;
+              yanit =false;
+   ```
    <br><h3> Örnek 5</h3>
               <br>//int sayi1=1,sayi2=2;
               <br>//float bolum;
