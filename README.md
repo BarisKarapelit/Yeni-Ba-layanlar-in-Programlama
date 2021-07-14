@@ -176,7 +176,7 @@
                else
                    Console.WriteLine("Bayanlar Askere Gidemez");
 ```            
->  ><h4> Ornek 5- Sayıların Karsılastırılması</h4>
+><h4> Ornek 5- Sayıların Karsılastırılması</h4>
 ```csharp
                int sayi1;
                int sayi2;
