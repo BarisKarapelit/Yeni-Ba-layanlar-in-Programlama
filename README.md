@@ -117,7 +117,7 @@
 ```
    <h3>Uyg3_KararKontrolYapiları</h3>
    
-     >> <h4>Ornek 1 - Ehliyet Durumu Sorgulama</h3>
+  >> <h4>Ornek 1 - Ehliyet Durumu Sorgulama</h3>
 ```csharp 
            <br> //byte yas;
             <br>//Console.Write("Lütfen Yasınızı Giriniz=");
