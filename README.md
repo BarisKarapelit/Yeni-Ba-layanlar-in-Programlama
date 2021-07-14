@@ -117,7 +117,7 @@
 ```
    <h3>Uyg3_KararKontrolYapiları</h3>
    
-  >> <h4>Ornek 1 - Ehliyet Durumu Sorgulama</h3>
+  > <h4>Ornek 1 - Ehliyet Durumu Sorgulama</h3>
 ```csharp 
            <br> //byte yas;
             <br>//Console.Write("Lütfen Yasınızı Giriniz=");
@@ -131,7 +131,8 @@
             <br>//    Console.WriteLine("Ehliyet Alamazsınız!!!");
             <br>//}
 ```            
-   <h3>Ornek 2 - Soyad Sorgulama</h3>
+   > <h4>Ornek 2 - Soyad Sorgulama</h3>
+```csharp   
             <br> //string soyad;
              <br>//Console.WriteLine("Ünlü şairimiz Mehmet Akif'in Soyadı Nedir?");
              <br>//soyad=Console.ReadLine();
@@ -144,8 +145,9 @@
             <br> //{
             <br> //    Console.WriteLine("Üzgünüz Bilemediniz!!!");
             <br> //}
-           
- <h3>Örnek 3 - 3e ve 5 e tam bolme islemi</h3>
+```           
+ > <h4>Örnek 3 - 3e ve 5 e tam bolme islemi</h3>
+```csharp
            <br> //int sayi;
             <br>//Console.Write("Sayı Giriniz=");
            <br> //sayi=int.Parse(Console.ReadLine());
@@ -155,8 +157,9 @@
            <br> //}
            <br> //else
            <br> //    Console.WriteLine("Sayı 3 e ve 5 bolunemez");
-           
-   <h3> Ornek 4 - Askerlik Durumu Sorgulama</h3>
+```           
+ >  <h4> Ornek 4 - Askerlik Durumu Sorgulama</h3>
+```csharp  
            <br> //char cinsiyet;
            <br> //byte yas;
            <br> //Console.Write("Cinsiyetiniz=");
@@ -174,8 +177,9 @@
            <br> //}
             <br>//else
            <br> //    Console.WriteLine("Bayanlar Askere Gidemez");
-            
-  <h3> Ornek 5- Sayıların Karsılastırılması</h3>
+```            
+>  <h4> Ornek 5- Sayıların Karsılastırılması</h3>
+```csharp
           <br>  //int sayi1;
           <br>  //int sayi2;
            <br> //Console.Write("1. Sayı=");
@@ -188,8 +192,9 @@
            <br> //    Console.WriteLine("{0}>{1}",sayi2,sayi1);
            <br> //else
            <br> //    Console.WriteLine("{0}={1}",sayi1,sayi2);
-           
-  <h3> Örnek 6 - 5'lik Not Sistemi yapımı</h3>
+```           
+>  <h4> Örnek 6 - 5'lik Not Sistemi yapımı</h3>
+```csharp
            <br> //byte not;
             <br>//Console.Write("Notu Giriniz");
             <br>//not=byte.Parse(Console.ReadLine());
@@ -203,8 +208,9 @@
           <br>  //    Console.WriteLine("2");
           <br>  //else
           <br>  //    Console.WriteLine("1");
-            
-   <h3> ORnek 7 Kullanıcı Kontrolu</h3>
+ ```           
+ >  <h4> ORnek 7 Kullanıcı Kontrolu</h3>
+ ```csharp
            <br> //string kadi,sifre;
            <br> //Console.Write("Kullanıcı Adı=");
            <br> //kadi=Console.ReadLine();
@@ -216,8 +222,9 @@
            <br> //}
             <br>//else
            <br> //    Console.WriteLine("Kullanıcı Adı yada Sifre Yanlıs");
-           
-   <h3>Ornek 8 - Basit Hesap Makinesi</h3>
+```           
+>   <h4>Ornek 8 - Basit Hesap Makinesi</h3>
+```csharp
           <br>  //float sayi1,sayi2,sonuc;
            <br> //char islem;
            <br> //Console.Write("Birinci sayıyı giriniz=");
@@ -235,8 +242,9 @@
           <br>  //else 
           <br>  //    sonuc=sayi1/sayi2;
           <br>  //Console.WriteLine("Sonuc={0}",sonuc);
-           
-   <h3> Örnek 9 - Switch- Case DEyimi</h3>
+```           
+>   <h4> Örnek 9 - Switch- Case DEyimi</h3>
+```csharp
            <br> //int sayi=9;
            <br> //switch (sayi)
           <br>  //{
@@ -253,8 +261,9 @@
            <br> //        Console.WriteLine("Belirtilen sayılara basıldı");
            <br> //        break;
            <br> //}
-            
-  <h3> Örnek 10 - 1-12 ay degerlerinin sözel karsılıgını veren prg.</h3>
+```            
+>  <h4> Örnek 10 - 1-12 ay degerlerinin sözel karsılıgını veren prg.</h3>
+```csharp
             <br>//byte ay;
             <br>//Console.Write("Sayısal olarak ay değerini giriniz=");
            <br> //ay=byte.Parse(Console.ReadLine());
@@ -274,8 +283,9 @@
            <br> //    case 12: Console.WriteLine("Aralık"); break;
            <br> //    default: Console.WriteLine("Belirtilen ay değeri bulunamadı!!"); break;
             <br>//}
-            
-<h3> Örnek 11 - Alan ve Cevre Hesabı</h3>
+```            
+> <h4> Örnek 11 - Alan ve Cevre Hesabı</h3>
+```csharp
            <br> //string sekil;
            <br> //int alan=0;
             <br>//int cevre=0;
@@ -305,8 +315,9 @@
            <br> //}
            <br> //Console.WriteLine("Alan={0}",alan);
             <br>//Console.WriteLine("Cevre={0}",cevre);
-           
-<h3> Örnek 12 - Hesap Makinesi</h3>
+```           
+> <h4> Örnek 12 - Hesap Makinesi</h3>
+```csharp
             <br>//int sayi1,sayi2,sonuc=0;
            <br> //char islem;
             <br>//Console.Write("1. Sayıyı Giriniz=");
@@ -324,37 +335,41 @@
             <br>//    default: Console.WriteLine("Belirtilen islem girilmedi!!!"); break;
             <br>//}
            <br> //Console.WriteLine("İşlem Sonucu ={0}",sonuc);
-           
+```          
 <h2>Uyg4_DonguDeyimleri</h2>
-<h3>  ÖRnek 1- 1-10 arası sayıları ekrana yazan prg.</h3> 
+> <h3>  ÖRnek 1- 1-10 arası sayıları ekrana yazan prg.</h3> 
+```csharp
             <br> //int i;
              <br>//for (i=1;i<=10;i++)
             <br> //{
             <br> //    Console.WriteLine(i);
            <br>  //}
-           
-   <h3>  Örnek 2 - d-r arası harfleri ekrana yazan prg.</h3> 
+```           
+ >  <h3>  Örnek 2 - d-r arası harfleri ekrana yazan prg.</h3> 
+```csharp
            <br>  //char harf='d';
             <br> //for(;harf<='r';)
            <br>  //{
            <br>  //    harf++;
            <br>  //    Console.WriteLine(harf);
            <br>  //}
-            
-   <h3>  ÖRnek 3 - 10-0 arası sayıları ekrana yazan prg.</h3> 
+```            
+ >  <h3>  ÖRnek 3 - 10-0 arası sayıları ekrana yazan prg.</h3> 
+```csharp
            <br>  //for(int i=10;i>=1;i--)
            <br>  //    Console.WriteLine(i);
             #endregion
             #region Örnek 4 - Degiskenlerin durumlarını kontrol eden prog.
            <br>  //for(int i=0,j=10;j>=i;j--,i++)
              <br>//    Console.WriteLine("i:{0}    j:{1}",i,j);
-          
-   <h3> Örnek 5 - Klavyeden girilen sayıya kadar olan sayıların top.</h3> 
-                <br> //int sayi;
+```
+ >  <h3> Örnek 5 - Klavyeden girilen sayıya kadar olan sayıların top.</h3> 
+```csharp
+                 <br> //int sayi;
                  <br>//int sayac=0;
                  <br>//Console.Write("Sayı Gir=");
                  <br>//sayi=int.Parse(Console.ReadLine());
                 <br> //for(int i=1;i<=sayi;i++)
                 <br> //    sayac+=i;
                 <br> //Console.WriteLine("Toplam={0}",sayac);
-          
+ ```         
