@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\baris\\source\\repos\\Yeni-Baslayanlar-icin-Programlama\\Uyg2-SabitlerveDegiskenler\\Uyg2-SabitlerveDegiskenler.csproj": {}
+    "C:\\Users\\DELL\\Source\\Repos\\Yeni-Baslayanlar-icin-Programlama\\Uyg2-SabitlerveDegiskenler\\Uyg2-SabitlerveDegiskenler.csproj": {}
   },
   "projects": {
-    "C:\\Users\\baris\\source\\repos\\Yeni-Baslayanlar-icin-Programlama\\Uyg2-SabitlerveDegiskenler\\Uyg2-SabitlerveDegiskenler.csproj": {
+    "C:\\Users\\DELL\\Source\\Repos\\Yeni-Baslayanlar-icin-Programlama\\Uyg2-SabitlerveDegiskenler\\Uyg2-SabitlerveDegiskenler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\baris\\source\\repos\\Yeni-Baslayanlar-icin-Programlama\\Uyg2-SabitlerveDegiskenler\\Uyg2-SabitlerveDegiskenler.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\Yeni-Baslayanlar-icin-Programlama\\Uyg2-SabitlerveDegiskenler\\Uyg2-SabitlerveDegiskenler.csproj",
         "projectName": "Uyg2-SabitlerveDegiskenler",
-        "projectPath": "C:\\Users\\baris\\source\\repos\\Yeni-Baslayanlar-icin-Programlama\\Uyg2-SabitlerveDegiskenler\\Uyg2-SabitlerveDegiskenler.csproj",
-        "packagesPath": "C:\\Users\\baris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\baris\\source\\repos\\Yeni-Baslayanlar-icin-Programlama\\Uyg2-SabitlerveDegiskenler\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Source\\Repos\\Yeni-Baslayanlar-icin-Programlama\\Uyg2-SabitlerveDegiskenler\\Uyg2-SabitlerveDegiskenler.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Source\\Repos\\Yeni-Baslayanlar-icin-Programlama\\Uyg2-SabitlerveDegiskenler\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\baris\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
