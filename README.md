@@ -32,7 +32,7 @@
                   yanit=true;
                   yanit =false;
 ```
-  > <br><h3> Örnek 5</h3>
+  > <h3> Örnek 5</h3>
 ```csharp
                   int sayi1=1,sayi2=2;
                   float bolum;
