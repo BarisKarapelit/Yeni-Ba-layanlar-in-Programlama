@@ -337,15 +337,19 @@
            <br> //Console.WriteLine("İşlem Sonucu ={0}",sonuc);
 ```          
 <h2>Uyg4_DonguDeyimleri</h2>
+
 > <h3>  ÖRnek 1- 1-10 arası sayıları ekrana yazan prg.</h3> 
+
 ```csharp
             <br> //int i;
              <br>//for (i=1;i<=10;i++)
             <br> //{
             <br> //    Console.WriteLine(i);
            <br>  //}
-```           
+```
+
  >  <h3>  Örnek 2 - d-r arası harfleri ekrana yazan prg.</h3> 
+
 ```csharp
            <br>  //char harf='d';
             <br> //for(;harf<='r';)
