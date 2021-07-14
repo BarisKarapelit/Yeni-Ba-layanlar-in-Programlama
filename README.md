@@ -20,13 +20,13 @@
                    byte yas=255; // Dogru Kullanım
                    byte yasi=256; //Yanlis Kullanım
   ```
- > <br><h3> Örnek 3</h3>
+ ><br><h3> Örnek 3</h3>
 ```csharp
                   char harf='A';
                   string veri="ALI";
 ```
 
-  > <br><h3>Örnek 4</h3>
+  ><br><h3>Örnek 4</h3>
 ```csharp
                   bool yanit;
                   yanit=true;
