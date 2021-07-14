@@ -2,7 +2,7 @@
 <br><h2>Uyg1-Visual_Studio_Ortamini_Kullanma</h2><br>
 
 <br><h2>Uyg2_SabitlerveDegiskenler</h2>
-  <h3>Ornek1</h3>
+ > <h3>Ornek1</h3>
           
             
  ```csharp
@@ -12,7 +12,7 @@
                     yas=int.Parse(Console.ReadLine());
                     Console.WriteLine("Demek {0} yaşındasınız!!",yas);
   ```
- <br><h3>Örnek2</h3>
+ ><br><h3>Örnek2</h3>
  ```csharp
              //yas değişkeni bellekte 1 byte (8bit) yer kapladıgı icin max 255 sayısı yazılabilir
              //daha yüksek bir değer değişkenin icerisine atmak gerekiyorsa bellekte daha fazla yer kaplayan
@@ -21,19 +21,19 @@
                    byte yasi=256; //Yanlis Kullanım
   ```
 
-  <br><h3> Örnek 3</h3>
+ > <br><h3> Örnek 3</h3>
 ```csharp
                   char harf='A';
                   string veri="ALI";
 ```
 
-   <br><h3>Örnek 4</h3>
+  > <br><h3>Örnek 4</h3>
 ```csharp
                   bool yanit;
                   yanit=true;
                   yanit =false;
 ```
-   <br><h3> Örnek 5</h3>
+  > <br><h3> Örnek 5</h3>
 ```csharp
                   int sayi1=1,sayi2=2;
                   float bolum;
@@ -41,7 +41,7 @@
                   Console.WriteLine(bolum);
 ```
 
-   <br><h3> Örnek6 - Lenght özelligi</h3>
+  > <br><h3> Örnek6 - Lenght özelligi</h3>
 ```csharp
                   string veri="Merhaba Dünya";
                   int sayi=veri.Length;
