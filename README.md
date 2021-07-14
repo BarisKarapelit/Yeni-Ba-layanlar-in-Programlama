@@ -113,21 +113,21 @@
                   a=float.Parse(b);
                   b=a.ToString();
 ```
-   ><h4>Uyg3_KararKontrolYapiları</h4>
+   <h2>Uyg3_KararKontrolYapiları</h2>
    
   ><h4>Ornek 1 - Ehliyet Durumu Sorgulama</h4>
 ```csharp 
-               byte yas;
-               Console.Write("Lütfen Yasınızı Giriniz=");
-               yas=byte.Parse(Console.ReadLine());
-               if (yas > 18)
-               {
-                   Console.WriteLine("Ehliyet Alabilirsiniz!!!");
-               }
-               else
-               {
-                   Console.WriteLine("Ehliyet Alamazsınız!!!");
-               }
+                  byte yas;
+                  Console.Write("Lütfen Yasınızı Giriniz=");
+                  yas=byte.Parse(Console.ReadLine());
+                  if (yas > 18)
+                  {
+                     Console.WriteLine("Ehliyet Alabilirsiniz!!!");
+                  }
+                  else
+                  {
+                     Console.WriteLine("Ehliyet Alamazsınız!!!");
+                  }
 ```            
    ><h4>Ornek 2 - Soyad Sorgulama</h4>
 ```csharp   
@@ -146,193 +146,193 @@
 ```           
  ><h4>Örnek 3 - 3e ve 5 e tam bolme islemi</h4>
 ```csharp
-               int sayi;
-               Console.Write("Sayı Giriniz=");
-               sayi=int.Parse(Console.ReadLine());
-               if(sayi%3==0 && sayi%5==0)
-               {
-                   Console.WriteLine("Sayı Hem 3e hem 5e tam bolunur");
-               }
-               else
-                   Console.WriteLine("Sayı 3 e ve 5 bolunemez");
+                  int sayi;
+                  Console.Write("Sayı Giriniz=");
+                  sayi=int.Parse(Console.ReadLine());
+                  if(sayi%3==0 && sayi%5==0)
+                  {
+                     Console.WriteLine("Sayı Hem 3e hem 5e tam bolunur");
+                  }
+                  else
+                     Console.WriteLine("Sayı 3 e ve 5 bolunemez");
 ```           
- >  ><h4> Ornek 4 - Askerlik Durumu Sorgulama</h4>
+   ><h4> Ornek 4 - Askerlik Durumu Sorgulama</h4>
 ```csharp  
-               char cinsiyet;
-               byte yas;
-               Console.Write("Cinsiyetiniz=");
-               cinsiyet=Console.ReadLine()[0];
-               if(cinsiyet=='e')
-               {
-                   Console.Write("Yasınız=");
-                   yas=byte.Parse(Console.ReadLine());
-                   if(yas>=20)
-                   {
-                       Console.WriteLine("Askere Gidebilirsiniz!!!");
-                   }
-                   else
-                       Console.WriteLine("Askere Gidemezsiniz!!!");
-               }
-               else
-                   Console.WriteLine("Bayanlar Askere Gidemez");
+                  char cinsiyet;
+                  byte yas;
+                  Console.Write("Cinsiyetiniz=");
+                  cinsiyet=Console.ReadLine()[0];
+                  if(cinsiyet=='e')
+                  {
+                     Console.Write("Yasınız=");
+                     yas=byte.Parse(Console.ReadLine());
+                     if(yas>=20)
+                     {
+                        Console.WriteLine("Askere Gidebilirsiniz!!!");
+                     }
+                     else
+                        Console.WriteLine("Askere Gidemezsiniz!!!");
+                  }
+                  else
+                     Console.WriteLine("Bayanlar Askere Gidemez");
 ```            
 ><h4> Ornek 5- Sayıların Karsılastırılması</h4>
 ```csharp
-               int sayi1;
-               int sayi2;
-               Console.Write("1. Sayı=");
-               sayi1=int.Parse(Console.ReadLine());
-               Console.Write("2. Sayı=");
-               sayi2=int.Parse(Console.ReadLine());
-               if(sayi1>sayi2)
-                   Console.WriteLine("{0}>{1}",sayi1,sayi2);
-               else if(sayi2>sayi1)
-                   Console.WriteLine("{0}>{1}",sayi2,sayi1);
-               else
-                   Console.WriteLine("{0}={1}",sayi1,sayi2);
+                  int sayi1;
+                  int sayi2;
+                  Console.Write("1. Sayı=");
+                  sayi1=int.Parse(Console.ReadLine());
+                  Console.Write("2. Sayı=");
+                  sayi2=int.Parse(Console.ReadLine());
+                  if(sayi1>sayi2)
+                     Console.WriteLine("{0}>{1}",sayi1,sayi2);
+                  else if(sayi2>sayi1)
+                     Console.WriteLine("{0}>{1}",sayi2,sayi1);
+                  else
+                     Console.WriteLine("{0}={1}",sayi1,sayi2);
 ```           
->  ><h4> Örnek 6 - 5'lik Not Sistemi yapımı</h4>
+><h4> Örnek 6 - 5'lik Not Sistemi yapımı</h4>
 ```csharp
-               byte not;
-               Console.Write("Notu Giriniz");
-               not=byte.Parse(Console.ReadLine());
-               if(not>=85)
-                   Console.WriteLine("5");
-               else if(not>=70)
-                   Console.WriteLine("4");
-               else if(not>=55)
-                   Console.WriteLine("3");
-               else if(not>=45)
-                   Console.WriteLine("2");
-               else
-                   Console.WriteLine("1");
+                  byte not;
+                  Console.Write("Notu Giriniz");
+                  not=byte.Parse(Console.ReadLine());
+                  if(not>=85)
+                     Console.WriteLine("5");
+                  else if(not>=70)
+                     Console.WriteLine("4");
+                  else if(not>=55)
+                     Console.WriteLine("3");
+                  else if(not>=45)
+                     Console.WriteLine("2");
+                  else
+                     Console.WriteLine("1");
  ```           
- >  ><h4> ORnek 7 Kullanıcı Kontrolu</h4>
+ ><h4> ORnek 7 Kullanıcı Kontrolu</h4>
  ```csharp
-               string kadi,sifre;
-               Console.Write("Kullanıcı Adı=");
-               kadi=Console.ReadLine();
-               Console.Write("Sifre=");
-               sifre=Console.ReadLine();
-               if(kadi=="Admin" && sifre=="1234")
-               {
-                   Console.WriteLine("Admin Paneline Hoşgeldiniz!!!");
-               }
-               else
-                   Console.WriteLine("Kullanıcı Adı yada Sifre Yanlıs");
+                  string kadi,sifre;
+                  Console.Write("Kullanıcı Adı=");
+                  kadi=Console.ReadLine();
+                  Console.Write("Sifre=");
+                  sifre=Console.ReadLine();
+                  if(kadi=="Admin" && sifre=="1234")
+                  {
+                     Console.WriteLine("Admin Paneline Hoşgeldiniz!!!");
+                  }
+                  else
+                     Console.WriteLine("Kullanıcı Adı yada Sifre Yanlıs");
 ```           
->   ><h4>Ornek 8 - Basit Hesap Makinesi</h4>
+   ><h4>Ornek 8 - Basit Hesap Makinesi</h4>
 ```csharp
-               float sayi1,sayi2,sonuc;
-               char islem;
-               Console.Write("Birinci sayıyı giriniz=");
-               sayi1=int.Parse(Console.ReadLine());
-               Console.Write("İkinci Sayıyı Giriniz=");
-               sayi2=int.Parse(Console.ReadLine());
-               Console.Write("Hangi İşlemi Yapmak İstiyorsunuz=");
-               islem=Console.ReadLine()[0];
-               if(islem=='+')
-                   sonuc=sayi1+sayi2;
-               else if(islem=='-')
-                   sonuc=sayi1-sayi2;
-               else if(islem=='*')
-                   sonuc=sayi1*sayi2;
-               else 
-                   sonuc=sayi1/sayi2;
-               Console.WriteLine("Sonuc={0}",sonuc);
+                  float sayi1,sayi2,sonuc;
+                  char islem;
+                  Console.Write("Birinci sayıyı giriniz=");
+                  sayi1=int.Parse(Console.ReadLine());
+                  Console.Write("İkinci Sayıyı Giriniz=");
+                  sayi2=int.Parse(Console.ReadLine());
+                  Console.Write("Hangi İşlemi Yapmak İstiyorsunuz=");
+                  islem=Console.ReadLine()[0];
+                  if(islem=='+')
+                     sonuc=sayi1+sayi2;
+                  else if(islem=='-')
+                     sonuc=sayi1-sayi2;
+                  else if(islem=='*')
+                     sonuc=sayi1*sayi2;
+                  else 
+                     sonuc=sayi1/sayi2;
+                  Console.WriteLine("Sonuc={0}",sonuc);
 ```           
->   ><h4> Örnek 9 - Switch- Case DEyimi</h4>
+ ><h4> Örnek 9 - Switch- Case DEyimi</h4>
 ```csharp
-               int sayi=9;
-               switch (sayi)
-               {
-                   case 1:
-                       Console.WriteLine("1 e basıldı");
-                       break;
-                   case 2:
-                       Console.WriteLine("2 e basıldı");
-                       break;
-                   case 3:
-                       Console.WriteLine("3 e basıldı");
-                       break;
-                   default:
-                       Console.WriteLine("Belirtilen sayılara basıldı");
-                       break;
-               }
+                  int sayi=9;
+                  switch (sayi)
+                  {
+                     case 1:
+                        Console.WriteLine("1 e basıldı");
+                        break;
+                     case 2:
+                        Console.WriteLine("2 e basıldı");
+                        break;
+                     case 3:
+                        Console.WriteLine("3 e basıldı");
+                        break;
+                     default:
+                        Console.WriteLine("Belirtilen sayılara basıldı");
+                        break;
+                  }
 ```            
->  ><h4> Örnek 10 - 1-12 ay degerlerinin sözel karsılıgını veren prg.</h4>
+ ><h4> Örnek 10 - 1-12 ay degerlerinin sözel karsılıgını veren prg.</h4>
 ```csharp
-               byte ay;
-               Console.Write("Sayısal olarak ay değerini giriniz=");
-               ay=byte.Parse(Console.ReadLine());
-               switch(ay)
-               {
-                   case 1: Console.WriteLine("Ocak"); break;
-                   case 2: Console.WriteLine("Şubat"); break;
-                   case 3: Console.WriteLine("Mart"); break;
-                   case 4: Console.WriteLine("Nisan"); break;
-                   case 5: Console.WriteLine("Mayıs"); break;
-                   case 6: Console.WriteLine("Haziran"); break;
-                   case 7: Console.WriteLine("Temmuz"); break;
-                   case 8: Console.WriteLine("Agustos"); break;
-                   case 9: Console.WriteLine("Eylül"); break;
-                   case 10: Console.WriteLine("Ekim"); break;
-                   case 11: Console.WriteLine("Kasım"); break;
-                   case 12: Console.WriteLine("Aralık"); break;
-                   default: Console.WriteLine("Belirtilen ay değeri bulunamadı!!"); break;
-               }
+                  byte ay;
+                  Console.Write("Sayısal olarak ay değerini giriniz=");
+                  ay=byte.Parse(Console.ReadLine());
+                  switch(ay)
+                  {
+                     case 1: Console.WriteLine("Ocak"); break;
+                     case 2: Console.WriteLine("Şubat"); break;
+                     case 3: Console.WriteLine("Mart"); break;
+                     case 4: Console.WriteLine("Nisan"); break;
+                     case 5: Console.WriteLine("Mayıs"); break;
+                     case 6: Console.WriteLine("Haziran"); break;
+                     case 7: Console.WriteLine("Temmuz"); break;
+                     case 8: Console.WriteLine("Agustos"); break;
+                     case 9: Console.WriteLine("Eylül"); break;
+                     case 10: Console.WriteLine("Ekim"); break;
+                     case 11: Console.WriteLine("Kasım"); break;
+                     case 12: Console.WriteLine("Aralık"); break;
+                     default: Console.WriteLine("Belirtilen ay değeri bulunamadı!!"); break;
+                  }
 ```            
 ><h4> Örnek 11 - Alan ve Cevre Hesabı</h4>
 ```csharp
-               string sekil;
-               int alan=0;
-               int cevre=0;
-               Console.Write("Sekil Giriniz=");
-               sekil=Console.ReadLine();
-               switch(sekil)
-               {
-                   case "kare":
-                       int kenar;
-                       Console.Write("Kenar uzunlugunu giriniz=");
-                       kenar=int.Parse(Console.ReadLine());
-                       alan=kenar*kenar;
-                       cevre=4*kenar;
-                       break;
-                   case "ücgen":
-                       int yukseklik;
-                       Console.Write("Kenar Uzunlugu=");
-                       kenar=int.Parse(Console.ReadLine());
-                       Console.WriteLine("Yuksekligi giriniz=");
-                       yukseklik=int.Parse(Console.ReadLine());
-                       alan=kenar*yukseklik/2;
-                       cevre=3*kenar;
-                       break;
-                   default:
-                       Console.WriteLine("Belirtilen sekil degeri degildir!!!");
-                       break;
-               }
-               Console.WriteLine("Alan={0}",alan);
-               Console.WriteLine("Cevre={0}",cevre);
+                  string sekil;
+                  int alan=0;
+                  int cevre=0;
+                  Console.Write("Sekil Giriniz=");
+                  sekil=Console.ReadLine();
+                  switch(sekil)
+                  {
+                     case "kare":
+                        int kenar;
+                        Console.Write("Kenar uzunlugunu giriniz=");
+                        kenar=int.Parse(Console.ReadLine());
+                        alan=kenar*kenar;
+                        cevre=4*kenar;
+                        break;
+                     case "ücgen":
+                        int yukseklik;
+                        Console.Write("Kenar Uzunlugu=");
+                        kenar=int.Parse(Console.ReadLine());
+                        Console.WriteLine("Yuksekligi giriniz=");
+                        yukseklik=int.Parse(Console.ReadLine());
+                        alan=kenar*yukseklik/2;
+                        cevre=3*kenar;
+                        break;
+                     default:
+                        Console.WriteLine("Belirtilen sekil degeri degildir!!!");
+                        break;
+                  }
+                  Console.WriteLine("Alan={0}",alan);
+                  Console.WriteLine("Cevre={0}",cevre);
 ```           
 ><h4> Örnek 12 - Hesap Makinesi</h4>
 ```csharp
-               int sayi1,sayi2,sonuc=0;
-               char islem;
-               Console.Write("1. Sayıyı Giriniz=");
-               sayi1=int.Parse(Console.ReadLine());
-               Console.Write("2. Sayıyı Giriniz");
-               sayi2=int.Parse(Console.ReadLine());
-               Console.Write("Hangi işlemi yapmak istiyorsunuz(+-*/)=");
-               islem=Console.ReadLine()[0];
-               switch (islem)
-               {
-                   case '+': sonuc=sayi1+sayi2; break;
-                   case '-': sonuc = sayi1 - sayi2; break;
-                   case '*': sonuc = sayi1 * sayi2; break;
-                   case '/': sonuc = sayi1 / sayi2; break;
-                   default: Console.WriteLine("Belirtilen islem girilmedi!!!"); break;
-               }
-               Console.WriteLine("İşlem Sonucu ={0}",sonuc);
+                  int sayi1,sayi2,sonuc=0;
+                  char islem;
+                  Console.Write("1. Sayıyı Giriniz=");
+                  sayi1=int.Parse(Console.ReadLine());
+                  Console.Write("2. Sayıyı Giriniz");
+                  sayi2=int.Parse(Console.ReadLine());
+                  Console.Write("Hangi işlemi yapmak istiyorsunuz(+-*/)=");
+                  islem=Console.ReadLine()[0];
+                  switch (islem)
+                  {
+                     case '+': sonuc=sayi1+sayi2; break;
+                     case '-': sonuc = sayi1 - sayi2; break;
+                     case '*': sonuc = sayi1 * sayi2; break;
+                     case '/': sonuc = sayi1 / sayi2; break;
+                     default: Console.WriteLine("Belirtilen islem girilmedi!!!"); break;
+                  }
+                  Console.WriteLine("İşlem Sonucu ={0}",sonuc);
 ```          
 <h2>Uyg4_DonguDeyimleri</h2>
 
@@ -369,11 +369,11 @@
 ```
 ><h4> Örnek 5 - Klavyeden girilen sayıya kadar olan sayıların top.</h4> 
 ```csharp
-                     int sayi;
-                     int sayac=0;
-                     Console.Write("Sayı Gir=");
-                     sayi=int.Parse(Console.ReadLine());
-                     for(int i=1;i<=sayi;i++)
-                         sayac+=i;
-                     Console.WriteLine("Toplam={0}",sayac);
+                  int sayi;
+                  int sayac=0;
+                  Console.Write("Sayı Gir=");
+                  sayi=int.Parse(Console.ReadLine());
+                  for(int i=1;i<=sayi;i++)
+                        sayac+=i;
+                  Console.WriteLine("Toplam={0}",sayac);
  ```         
