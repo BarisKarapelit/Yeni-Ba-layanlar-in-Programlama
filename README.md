@@ -1,7 +1,7 @@
 ﻿# Yeni-Baslayanlar-icin-Programlama
 <h2>Uyg1-Visual_Studio_Ortamini_Kullanma</h2>
 
-<h2>Uyg2_SabitlerveDegiskenler</h2>
+<h2><a href="https://github.com/BarisKarapelit/Yeni-Baslayanlar-icin-Programlama/blob/main/Uyg2-SabitlerveDegiskenler/Program.cs">Uyg2_SabitlerveDegiskenler</a></h2>
  
  ><h4>Ornek1</h4>
  ```csharp
